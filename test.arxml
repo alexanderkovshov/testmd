@@ -1,0 +1,2099 @@
+                          <VT>Certificate verification failed - Invalid Scope (wrong vehicle, ECU, )</VT>
+                      <COMPU-SCALE>
+                        <SYMBOL>Verification_Result_SecOC_ECU_Shared_Secret_Distribution_23_Reserved</SYMBOL>
+                        <LOWER-LIMIT INTERVAL-TYPE="CLOSED">23</LOWER-LIMIT>
+                        <UPPER-LIMIT INTERVAL-TYPE="CLOSED">31</UPPER-LIMIT>
+                        <COMPU-CONST>
+                          <VT>Reserved</VT>
+                        </COMPU-CONST>
+                      </COMPU-SCALE>
+                      <COMPU-SCALE>
+                        <SYMBOL>Verification_Result_SecOC_ECU_Shared_Secret_Distribution_32_Invalid_Data_Signature</SYMBOL>
+                        <LOWER-LIMIT INTERVAL-TYPE="CLOSED">32</LOWER-LIMIT>
+                        <UPPER-LIMIT INTERVAL-TYPE="CLOSED">32</UPPER-LIMIT>
+                        <COMPU-CONST>
+                          <VT>Invalid Data Signature</VT>
+                        </COMPU-CONST>
+                      </COMPU-SCALE>
+                      <COMPU-SCALE>
+                        <SYMBOL>Verification_Result_SecOC_ECU_Shared_Secret_Distribution_33_Reserved</SYMBOL>
+                        <LOWER-LIMIT INTERVAL-TYPE="CLOSED">33</LOWER-LIMIT>
+                        <UPPER-LIMIT INTERVAL-TYPE="CLOSED">47</UPPER-LIMIT>
+                        <COMPU-CONST>
+                          <VT>Reserved</VT>
+                        </COMPU-CONST>
+                      </COMPU-SCALE>
+                      <COMPU-SCALE>
+                        <SYMBOL>Verification_Result_SecOC_ECU_Shared_Secret_Distribution_48_Invalid_Encr_Nonce_or_shared_S</SYMBOL>
+                        <LOWER-LIMIT INTERVAL-TYPE="CLOSED">48</LOWER-LIMIT>
+                        <UPPER-LIMIT INTERVAL-TYPE="CLOSED">48</UPPER-LIMIT>
+                        <COMPU-CONST>
+                          <VT>Invalid Encr. Nonce or shared Secret</VT>
+                        </COMPU-CONST>
+                      </COMPU-SCALE>
+                      <COMPU-SCALE>
+                        <SYMBOL>Verification_Result_SecOC_ECU_Shared_Secret_Distribution_49_Reserved</SYMBOL>
+                        <LOWER-LIMIT INTERVAL-TYPE="CLOSED">49</LOWER-LIMIT>
+                        <UPPER-LIMIT INTERVAL-TYPE="CLOSED">63</UPPER-LIMIT>
+                        <COMPU-CONST>
+                          <VT>Reserved</VT>
+                        </COMPU-CONST>
+                      </COMPU-SCALE>
+                      <COMPU-SCALE>
+                        <SYMBOL>Verification_Result_SecOC_ECU_Shared_Secret_Distribution_64_SecOC_Key_generation_failed</SYMBOL>
+                        <LOWER-LIMIT INTERVAL-TYPE="CLOSED">64</LOWER-LIMIT>
+                        <UPPER-LIMIT INTERVAL-TYPE="CLOSED">64</UPPER-LIMIT>
+                        <COMPU-CONST>
+                          <VT>SecOC Key generation failed</VT>
+                        </COMPU-CONST>
+                      </COMPU-SCALE>
+                      <COMPU-SCALE>
+                        <SYMBOL>Verification_Result_SecOC_ECU_Shared_Secret_Distribution_65_Reserved</SYMBOL>
+                        <LOWER-LIMIT INTERVAL-TYPE="CLOSED">65</LOWER-LIMIT>
+                        <UPPER-LIMIT INTERVAL-TYPE="CLOSED">79</UPPER-LIMIT>
+                        <COMPU-CONST>
+                          <VT>Reserved</VT>
+                        </COMPU-CONST>
+                      </COMPU-SCALE>
+                      <COMPU-SCALE>
+                        <SYMBOL>Verification_Result_SecOC_ECU_Shared_Secret_Distribution_80_Time_Synchronization_failed</SYMBOL>
+                        <LOWER-LIMIT INTERVAL-TYPE="CLOSED">80</LOWER-LIMIT>
+                        <UPPER-LIMIT INTERVAL-TYPE="CLOSED">80</UPPER-LIMIT>
+                        <COMPU-CONST>
+                          <VT>Time Synchronization failed</VT>
+                        </COMPU-CONST>
+                      </COMPU-SCALE>
+                      <COMPU-SCALE>
+                        <SYMBOL>Verification_Result_SecOC_ECU_Shared_Secret_Distribution_81_Reserved</SYMBOL>
+                        <LOWER-LIMIT INTERVAL-TYPE="CLOSED">81</LOWER-LIMIT>
+                        <UPPER-LIMIT INTERVAL-TYPE="CLOSED">255</UPPER-LIMIT>
+                        <COMPU-CONST>
+                          <VT>Reserved</VT>
+                        </COMPU-CONST>
+                      </COMPU-SCALE>
+                    </COMPU-SCALES>
+                  </COMPU-INTERNAL-TO-PHYS>
+                </COMPU-METHOD>
+                <COMPU-METHOD>
+                  <SHORT-NAME>Verification_Result_Signature</SHORT-NAME>
+                  <CATEGORY>TEXTTABLE</CATEGORY>
+                  <COMPU-INTERNAL-TO-PHYS>
+                    <COMPU-SCALES>
+                      <COMPU-SCALE>
+                        <SYMBOL>Verification_Result_Signature_0_Signature_verification_success</SYMBOL>
+                        <LOWER-LIMIT INTERVAL-TYPE="CLOSED">0</LOWER-LIMIT>
+                        <UPPER-LIMIT INTERVAL-TYPE="CLOSED">0</UPPER-LIMIT>
+                        <COMPU-CONST>
+                          <VT>Signature verification successfull</VT>
+                        </COMPU-CONST>
+                      </COMPU-SCALE>
+                      <COMPU-SCALE>
+                        <SYMBOL>Verification_Result_Signature_1_Reserved</SYMBOL>
+                        <LOWER-LIMIT INTERVAL-TYPE="CLOSED">1</LOWER-LIMIT>
+                        <UPPER-LIMIT INTERVAL-TYPE="CLOSED">15</UPPER-LIMIT>
+                        <COMPU-CONST>
+                          <VT>Reserved</VT>
+                        </COMPU-CONST>
+                      </COMPU-SCALE>
+                      <COMPU-SCALE>
+                        <SYMBOL>Verification_Result_Signature_16_Signature_verification_failed</SYMBOL>
+                        <LOWER-LIMIT INTERVAL-TYPE="CLOSED">16</LOWER-LIMIT>
+                        <UPPER-LIMIT INTERVAL-TYPE="CLOSED">16</UPPER-LIMIT>
+                        <COMPU-CONST>
+                          <VT>Signature verification failed - Invalid Signature</VT>
+                        </COMPU-CONST>
+                      </COMPU-SCALE>
+                      <COMPU-SCALE>
+                        <SYMBOL>Verification_Result_Signature_17_Signature_verification_failed</SYMBOL>
+                        <LOWER-LIMIT INTERVAL-TYPE="CLOSED">17</LOWER-LIMIT>
+                        <UPPER-LIMIT INTERVAL-TYPE="CLOSED">17</UPPER-LIMIT>
+                        <COMPU-CONST>
+                          <VT>Signature verification failed - No Signature Verification Key available</VT>
+                        </COMPU-CONST>
+                      </COMPU-SCALE>
+                      <COMPU-SCALE>
+                        <SYMBOL>Verification_Result_Signature_18_Reserved</SYMBOL>
+                        <LOWER-LIMIT INTERVAL-TYPE="CLOSED">18</LOWER-LIMIT>
+                        <UPPER-LIMIT INTERVAL-TYPE="CLOSED">255</UPPER-LIMIT>
+                        <COMPU-CONST>
+                          <VT>Reserved</VT>
+                        </COMPU-CONST>
+                      </COMPU-SCALE>
+                    </COMPU-SCALES>
+                  </COMPU-INTERNAL-TO-PHYS>
+                </COMPU-METHOD>
+                <COMPU-METHOD>
+                  <SHORT-NAME>VIN_17Byte</SHORT-NAME>
+                  <CATEGORY>IDENTICAL</CATEGORY>
+                </COMPU-METHOD>
+                <COMPU-METHOD>
+                  <SHORT-NAME>Week_1Byte</SHORT-NAME>
+                  <CATEGORY>LINEAR</CATEGORY>
+                  <COMPU-INTERNAL-TO-PHYS>
+                    <COMPU-SCALES>
+                      <COMPU-SCALE>
+                        <LOWER-LIMIT INTERVAL-TYPE="CLOSED">1</LOWER-LIMIT>
+                        <UPPER-LIMIT INTERVAL-TYPE="CLOSED">53</UPPER-LIMIT>
+                        <COMPU-RATIONAL-COEFFS>
+                          <COMPU-NUMERATOR>
+                            <V>0</V>
+                            <V>1</V>
+                          </COMPU-NUMERATOR>
+                          <COMPU-DENOMINATOR>
+                            <V>1</V>
+                          </COMPU-DENOMINATOR>
+                        </COMPU-RATIONAL-COEFFS>
+                      </COMPU-SCALE>
+                    </COMPU-SCALES>
+                  </COMPU-INTERNAL-TO-PHYS>
+                </COMPU-METHOD>
+                <COMPU-METHOD>
+                  <SHORT-NAME>X_1_to_4092_Bytes</SHORT-NAME>
+                  <CATEGORY>IDENTICAL</CATEGORY>
+                </COMPU-METHOD>
+                <COMPU-METHOD>
+                  <SHORT-NAME>X_C_ID</SHORT-NAME>
+                  <CATEGORY>IDENTICAL</CATEGORY>
+                </COMPU-METHOD>
+                <COMPU-METHOD>
+                  <SHORT-NAME>Year_1Byte</SHORT-NAME>
+                  <CATEGORY>LINEAR</CATEGORY>
+                  <COMPU-INTERNAL-TO-PHYS>
+                    <COMPU-SCALES>
+                      <COMPU-SCALE>
+                        <UPPER-LIMIT INTERVAL-TYPE="CLOSED">99</UPPER-LIMIT>
+                        <COMPU-RATIONAL-COEFFS>
+                          <COMPU-NUMERATOR>
+                            <V>0</V>
+                            <V>1</V>
+                          </COMPU-NUMERATOR>
+                          <COMPU-DENOMINATOR>
+                            <V>1</V>
+                          </COMPU-DENOMINATOR>
+                        </COMPU-RATIONAL-COEFFS>
+                      </COMPU-SCALE>
+                    </COMPU-SCALES>
+                  </COMPU-INTERNAL-TO-PHYS>
+                </COMPU-METHOD>
+              </ELEMENTS>
+            </AR-PACKAGE>
+            <AR-PACKAGE>
+              <SHORT-NAME>DataConstraints</SHORT-NAME>
+              <ELEMENTS>
+                <DATA-CONSTR>
+                  <SHORT-NAME>BCD_1Byte</SHORT-NAME>
+                  <DATA-CONSTR-RULES>
+                    <DATA-CONSTR-RULE>
+                      <INTERNAL-CONSTRS>
+                        <LOWER-LIMIT INTERVAL-TYPE="CLOSED">0</LOWER-LIMIT>
+                        <UPPER-LIMIT INTERVAL-TYPE="CLOSED">153</UPPER-LIMIT>
+                      </INTERNAL-CONSTRS>
+                    </DATA-CONSTR-RULE>
+                  </DATA-CONSTR-RULES>
+                </DATA-CONSTR>
+                <DATA-CONSTR>
+                  <SHORT-NAME>Day</SHORT-NAME>
+                  <DATA-CONSTR-RULES>
+                    <DATA-CONSTR-RULE>
+                      <INTERNAL-CONSTRS>
+                        <SCALE-CONSTRS>
+                          <SCALE-CONSTR VALIDITY="NOT-AVAILABLE">
+                            <SHORT-LABEL>NOT_PROGRAMMED_BY_DAIMLER</SHORT-LABEL>
+                            <LOWER-LIMIT INTERVAL-TYPE="CLOSED">0</LOWER-LIMIT>
+                            <UPPER-LIMIT INTERVAL-TYPE="CLOSED">0</UPPER-LIMIT>
+                          </SCALE-CONSTR>
+                          <SCALE-CONSTR VALIDITY="NOT-VALID">
+                            <SHORT-LABEL>Invalid_Signal</SHORT-LABEL>
+                            <LOWER-LIMIT INTERVAL-TYPE="CLOSED">32</LOWER-LIMIT>
+                            <UPPER-LIMIT INTERVAL-TYPE="CLOSED">254</UPPER-LIMIT>
+                          </SCALE-CONSTR>
+                          <SCALE-CONSTR VALIDITY="NOT-AVAILABLE">
+                            <SHORT-LABEL>NOT_PROGRAMMED_AT_All</SHORT-LABEL>
+                            <LOWER-LIMIT INTERVAL-TYPE="CLOSED">255</LOWER-LIMIT>
+                            <UPPER-LIMIT INTERVAL-TYPE="CLOSED">255</UPPER-LIMIT>
+                          </SCALE-CONSTR>
+                        </SCALE-CONSTRS>
+                      </INTERNAL-CONSTRS>
+                    </DATA-CONSTR-RULE>
+                  </DATA-CONSTR-RULES>
+                </DATA-CONSTR>
+                <DATA-CONSTR>
+                  <SHORT-NAME>Fail_Safe_Reaction</SHORT-NAME>
+                  <DATA-CONSTR-RULES>
+                    <DATA-CONSTR-RULE>
+                      <INTERNAL-CONSTRS>
+                        <LOWER-LIMIT INTERVAL-TYPE="CLOSED">0</LOWER-LIMIT>
+                        <UPPER-LIMIT INTERVAL-TYPE="CLOSED">0</UPPER-LIMIT>
+                        <SCALE-CONSTRS>
+                          <SCALE-CONSTR VALIDITY="NOT-VALID">
+                            <SHORT-LABEL>reserved</SHORT-LABEL>
+                            <LOWER-LIMIT INTERVAL-TYPE="CLOSED">1</LOWER-LIMIT>
+                            <UPPER-LIMIT INTERVAL-TYPE="CLOSED">255</UPPER-LIMIT>
+                          </SCALE-CONSTR>
+                        </SCALE-CONSTRS>
+                      </INTERNAL-CONSTRS>
+                    </DATA-CONSTR-RULE>
+                  </DATA-CONSTR-RULES>
+                </DATA-CONSTR>
+                <DATA-CONSTR>
+                  <SHORT-NAME>Frequency_Counter</SHORT-NAME>
+                  <DATA-CONSTR-RULES>
+                    <DATA-CONSTR-RULE>
+                      <INTERNAL-CONSTRS>
+                        <LOWER-LIMIT INTERVAL-TYPE="CLOSED">0</LOWER-LIMIT>
+                        <UPPER-LIMIT INTERVAL-TYPE="CLOSED">255</UPPER-LIMIT>
+                        <SCALE-CONSTRS>
+                          <SCALE-CONSTR VALIDITY="NOT-AVAILABLE">
+                            <SHORT-LABEL>Frequency_counter_not_available_Default</SHORT-LABEL>
+                            <LOWER-LIMIT INTERVAL-TYPE="CLOSED">0</LOWER-LIMIT>
+                            <UPPER-LIMIT INTERVAL-TYPE="CLOSED">0</UPPER-LIMIT>
+                          </SCALE-CONSTR>
+                        </SCALE-CONSTRS>
+                      </INTERNAL-CONSTRS>
+                    </DATA-CONSTR-RULE>
+                  </DATA-CONSTR-RULES>
+                </DATA-CONSTR>
+                <DATA-CONSTR>
+                  <SHORT-NAME>HexDump_1Byte</SHORT-NAME>
+                  <DATA-CONSTR-RULES>
+                    <DATA-CONSTR-RULE>
+                      <INTERNAL-CONSTRS>
+                        <LOWER-LIMIT INTERVAL-TYPE="CLOSED">0</LOWER-LIMIT>
+                        <UPPER-LIMIT INTERVAL-TYPE="CLOSED">255</UPPER-LIMIT>
+                      </INTERNAL-CONSTRS>
+                    </DATA-CONSTR-RULE>
+                  </DATA-CONSTR-RULES>
+                </DATA-CONSTR>
+                <DATA-CONSTR>
+                  <SHORT-NAME>Ignition_Cycle_Counter</SHORT-NAME>
+                  <DATA-CONSTR-RULES>
+                    <DATA-CONSTR-RULE>
+                      <INTERNAL-CONSTRS>
+                        <LOWER-LIMIT INTERVAL-TYPE="CLOSED">0</LOWER-LIMIT>
+                        <UPPER-LIMIT INTERVAL-TYPE="CLOSED">255</UPPER-LIMIT>
+                      </INTERNAL-CONSTRS>
+                    </DATA-CONSTR-RULE>
+                  </DATA-CONSTR-RULES>
+                </DATA-CONSTR>
+                <DATA-CONSTR>
+                  <SHORT-NAME>Month</SHORT-NAME>
+                  <DATA-CONSTR-RULES>
+                    <DATA-CONSTR-RULE>
+                      <INTERNAL-CONSTRS>
+                        <SCALE-CONSTRS>
+                          <SCALE-CONSTR VALIDITY="NOT-AVAILABLE">
+                            <SHORT-LABEL>NOT_PROGRAMMED_AT_DAIMLER</SHORT-LABEL>
+                            <LOWER-LIMIT INTERVAL-TYPE="CLOSED">0</LOWER-LIMIT>
+                            <UPPER-LIMIT INTERVAL-TYPE="CLOSED">0</UPPER-LIMIT>
+                          </SCALE-CONSTR>
+                          <SCALE-CONSTR VALIDITY="NOT-AVAILABLE">
+                            <SHORT-LABEL>invalid</SHORT-LABEL>
+                            <LOWER-LIMIT INTERVAL-TYPE="CLOSED">13</LOWER-LIMIT>
+                            <UPPER-LIMIT INTERVAL-TYPE="CLOSED">254</UPPER-LIMIT>
+                          </SCALE-CONSTR>
+                          <SCALE-CONSTR VALIDITY="NOT-AVAILABLE">
+                            <SHORT-LABEL>NOT_PROGRAMMED_AT_ALL</SHORT-LABEL>
+                            <LOWER-LIMIT INTERVAL-TYPE="CLOSED">255</LOWER-LIMIT>
+                            <UPPER-LIMIT INTERVAL-TYPE="CLOSED">255</UPPER-LIMIT>
+                          </SCALE-CONSTR>
+                        </SCALE-CONSTRS>
+                      </INTERNAL-CONSTRS>
+                    </DATA-CONSTR-RULE>
+                  </DATA-CONSTR-RULES>
+                </DATA-CONSTR>
+                <DATA-CONSTR>
+                  <SHORT-NAME>PatchLevel_1Byte</SHORT-NAME>
+                  <DATA-CONSTR-RULES>
+                    <DATA-CONSTR-RULE>
+                      <INTERNAL-CONSTRS>
+                        <UPPER-LIMIT INTERVAL-TYPE="CLOSED">99</UPPER-LIMIT>
+                        <SCALE-CONSTRS>
+                          <SCALE-CONSTR VALIDITY="NOT-VALID">
+                            <SHORT-LABEL>invalid</SHORT-LABEL>
+                            <LOWER-LIMIT INTERVAL-TYPE="CLOSED">100</LOWER-LIMIT>
+                            <UPPER-LIMIT INTERVAL-TYPE="CLOSED">255</UPPER-LIMIT>
+                          </SCALE-CONSTR>
+                        </SCALE-CONSTRS>
+                      </INTERNAL-CONSTRS>
+                    </DATA-CONSTR-RULE>
+                  </DATA-CONSTR-RULES>
+                </DATA-CONSTR>
+                <DATA-CONSTR>
+                  <SHORT-NAME>Pre_Verification_result</SHORT-NAME>
+                  <DATA-CONSTR-RULES>
+                    <DATA-CONSTR-RULE>
+                      <INTERNAL-CONSTRS>
+                        <SCALE-CONSTRS>
+                          <SCALE-CONSTR VALIDITY="NOT-VALID">
+                            <SHORT-LABEL>reserved</SHORT-LABEL>
+                            <LOWER-LIMIT INTERVAL-TYPE="CLOSED">4</LOWER-LIMIT>
+                            <UPPER-LIMIT INTERVAL-TYPE="CLOSED">255</UPPER-LIMIT>
+                          </SCALE-CONSTR>
+                        </SCALE-CONSTRS>
+                      </INTERNAL-CONSTRS>
+                    </DATA-CONSTR-RULE>
+                  </DATA-CONSTR-RULES>
+                </DATA-CONSTR>
+                <DATA-CONSTR>
+                  <SHORT-NAME>routineInfo</SHORT-NAME>
+                  <DATA-CONSTR-RULES>
+                    <DATA-CONSTR-RULE>
+                      <INTERNAL-CONSTRS>
+                        <SCALE-CONSTRS>
+                          <SCALE-CONSTR VALIDITY="NOT-DEFINED">
+                            <SHORT-LABEL>undefined_value</SHORT-LABEL>
+                            <LOWER-LIMIT INTERVAL-TYPE="CLOSED">3</LOWER-LIMIT>
+                            <UPPER-LIMIT INTERVAL-TYPE="CLOSED">254</UPPER-LIMIT>
+                          </SCALE-CONSTR>
+                        </SCALE-CONSTRS>
+                      </INTERNAL-CONSTRS>
+                    </DATA-CONSTR-RULE>
+                  </DATA-CONSTR-RULES>
+                </DATA-CONSTR>
+                <DATA-CONSTR>
+                  <SHORT-NAME>Set_number</SHORT-NAME>
+                  <DATA-CONSTR-RULES>
+                    <DATA-CONSTR-RULE>
+                      <INTERNAL-CONSTRS>
+                        <LOWER-LIMIT INTERVAL-TYPE="CLOSED">0</LOWER-LIMIT>
+                        <UPPER-LIMIT INTERVAL-TYPE="CLOSED">255</UPPER-LIMIT>
+                      </INTERNAL-CONSTRS>
+                    </DATA-CONSTR-RULE>
+                  </DATA-CONSTR-RULES>
+                </DATA-CONSTR>
+                <DATA-CONSTR>
+                  <SHORT-NAME>Unsigned_1Byte</SHORT-NAME>
+                  <DATA-CONSTR-RULES>
+                    <DATA-CONSTR-RULE>
+                      <INTERNAL-CONSTRS>
+                        <LOWER-LIMIT INTERVAL-TYPE="CLOSED">0</LOWER-LIMIT>
+                        <UPPER-LIMIT INTERVAL-TYPE="CLOSED">255</UPPER-LIMIT>
+                      </INTERNAL-CONSTRS>
+                    </DATA-CONSTR-RULE>
+                  </DATA-CONSTR-RULES>
+                </DATA-CONSTR>
+                <DATA-CONSTR>
+                  <SHORT-NAME>Unsigned_2Byte</SHORT-NAME>
+                  <DATA-CONSTR-RULES>
+                    <DATA-CONSTR-RULE>
+                      <INTERNAL-CONSTRS>
+                        <LOWER-LIMIT INTERVAL-TYPE="CLOSED">0</LOWER-LIMIT>
+                        <UPPER-LIMIT INTERVAL-TYPE="CLOSED">65535</UPPER-LIMIT>
+                      </INTERNAL-CONSTRS>
+                    </DATA-CONSTR-RULE>
+                  </DATA-CONSTR-RULES>
+                </DATA-CONSTR>
+                <DATA-CONSTR>
+                  <SHORT-NAME>Unsigned_Hex_4_Byte</SHORT-NAME>
+                  <DATA-CONSTR-RULES>
+                    <DATA-CONSTR-RULE>
+                      <INTERNAL-CONSTRS>
+                        <LOWER-LIMIT INTERVAL-TYPE="CLOSED">0</LOWER-LIMIT>
+                        <UPPER-LIMIT INTERVAL-TYPE="CLOSED">4294967295</UPPER-LIMIT>
+                      </INTERNAL-CONSTRS>
+                    </DATA-CONSTR-RULE>
+                  </DATA-CONSTR-RULES>
+                </DATA-CONSTR>
+                <DATA-CONSTR>
+                  <SHORT-NAME>Vehicle_Odometer_in_Low_Resolution</SHORT-NAME>
+                  <DATA-CONSTR-RULES>
+                    <DATA-CONSTR-RULE>
+                      <INTERNAL-CONSTRS>
+                        <LOWER-LIMIT INTERVAL-TYPE="CLOSED">0</LOWER-LIMIT>
+                        <UPPER-LIMIT INTERVAL-TYPE="CLOSED">65534</UPPER-LIMIT>
+                        <SCALE-CONSTRS>
+                          <SCALE-CONSTR VALIDITY="NOT-AVAILABLE">
+                            <SHORT-LABEL>Odometer_Value_not_available_Default</SHORT-LABEL>
+                            <LOWER-LIMIT INTERVAL-TYPE="CLOSED">65535</LOWER-LIMIT>
+                            <UPPER-LIMIT INTERVAL-TYPE="CLOSED">65535</UPPER-LIMIT>
+                          </SCALE-CONSTR>
+                        </SCALE-CONSTRS>
+                      </INTERNAL-CONSTRS>
+                    </DATA-CONSTR-RULE>
+                  </DATA-CONSTR-RULES>
+                </DATA-CONSTR>
+                <DATA-CONSTR>
+                  <SHORT-NAME>Verification_result</SHORT-NAME>
+                  <DATA-CONSTR-RULES>
+                    <DATA-CONSTR-RULE>
+                      <INTERNAL-CONSTRS>
+                        <SCALE-CONSTRS>
+                          <SCALE-CONSTR VALIDITY="NOT-VALID">
+                            <SHORT-LABEL>reserved</SHORT-LABEL>
+                            <LOWER-LIMIT INTERVAL-TYPE="CLOSED">5</LOWER-LIMIT>
+                            <UPPER-LIMIT INTERVAL-TYPE="CLOSED">255</UPPER-LIMIT>
+                          </SCALE-CONSTR>
+                        </SCALE-CONSTRS>
+                      </INTERNAL-CONSTRS>
+                    </DATA-CONSTR-RULE>
+                  </DATA-CONSTR-RULES>
+                </DATA-CONSTR>
+                <DATA-CONSTR>
+                  <SHORT-NAME>Week_1Byte</SHORT-NAME>
+                  <DATA-CONSTR-RULES>
+                    <DATA-CONSTR-RULE>
+                      <INTERNAL-CONSTRS>
+                        <LOWER-LIMIT INTERVAL-TYPE="CLOSED">1</LOWER-LIMIT>
+                        <UPPER-LIMIT INTERVAL-TYPE="CLOSED">53</UPPER-LIMIT>
+                        <SCALE-CONSTRS>
+                          <SCALE-CONSTR VALIDITY="NOT-AVAILABLE">
+                            <SHORT-LABEL>NOT_PROGRAMMED_AT_DAIMLER</SHORT-LABEL>
+                            <LOWER-LIMIT INTERVAL-TYPE="CLOSED">0</LOWER-LIMIT>
+                            <UPPER-LIMIT INTERVAL-TYPE="CLOSED">0</UPPER-LIMIT>
+                          </SCALE-CONSTR>
+                          <SCALE-CONSTR VALIDITY="NOT-VALID">
+                            <SHORT-LABEL>Invalid_</SHORT-LABEL>
+                            <LOWER-LIMIT INTERVAL-TYPE="CLOSED">54</LOWER-LIMIT>
+                            <UPPER-LIMIT INTERVAL-TYPE="CLOSED">254</UPPER-LIMIT>
+                          </SCALE-CONSTR>
+                          <SCALE-CONSTR VALIDITY="NOT-AVAILABLE">
+                            <SHORT-LABEL>NOT_PROGRAMMED_AT_ALL</SHORT-LABEL>
+                            <LOWER-LIMIT INTERVAL-TYPE="CLOSED">255</LOWER-LIMIT>
+                            <UPPER-LIMIT INTERVAL-TYPE="CLOSED">255</UPPER-LIMIT>
+                          </SCALE-CONSTR>
+                        </SCALE-CONSTRS>
+                      </INTERNAL-CONSTRS>
+                    </DATA-CONSTR-RULE>
+                  </DATA-CONSTR-RULES>
+                </DATA-CONSTR>
+                <DATA-CONSTR>
+                  <SHORT-NAME>Year_1Byte</SHORT-NAME>
+                  <DATA-CONSTR-RULES>
+                    <DATA-CONSTR-RULE>
+                      <INTERNAL-CONSTRS>
+                        <UPPER-LIMIT INTERVAL-TYPE="CLOSED">99</UPPER-LIMIT>
+                        <SCALE-CONSTRS>
+                          <SCALE-CONSTR VALIDITY="NOT-VALID">
+                            <SHORT-LABEL>invalid</SHORT-LABEL>
+                            <LOWER-LIMIT INTERVAL-TYPE="CLOSED">100</LOWER-LIMIT>
+                            <UPPER-LIMIT INTERVAL-TYPE="CLOSED">254</UPPER-LIMIT>
+                          </SCALE-CONSTR>
+                          <SCALE-CONSTR VALIDITY="NOT-AVAILABLE">
+                            <SHORT-LABEL>NOT_PROGRAMMED_AT_ALL</SHORT-LABEL>
+                            <LOWER-LIMIT INTERVAL-TYPE="CLOSED">255</LOWER-LIMIT>
+                            <UPPER-LIMIT INTERVAL-TYPE="CLOSED">255</UPPER-LIMIT>
+                          </SCALE-CONSTR>
+                        </SCALE-CONSTRS>
+                      </INTERNAL-CONSTRS>
+                    </DATA-CONSTR-RULE>
+                  </DATA-CONSTR-RULES>
+                </DATA-CONSTR>
+              </ELEMENTS>
+            </AR-PACKAGE>
+            <AR-PACKAGE>
+              <SHORT-NAME>BaseTypes</SHORT-NAME>
+              <ELEMENTS>
+                <SW-BASE-TYPE>
+                  <SHORT-NAME>bcd8_opaq</SHORT-NAME>
+                  <CATEGORY>FIXED_LENGTH</CATEGORY>
+                  <BASE-TYPE-SIZE>8</BASE-TYPE-SIZE>
+                  <BASE-TYPE-ENCODING>BCD-P</BASE-TYPE-ENCODING>
+                  <BYTE-ORDER>OPAQUE</BYTE-ORDER>
+                </SW-BASE-TYPE>
+                <SW-BASE-TYPE>
+                  <SHORT-NAME>uint16_mot</SHORT-NAME>
+                  <CATEGORY>FIXED_LENGTH</CATEGORY>
+                  <BASE-TYPE-SIZE>16</BASE-TYPE-SIZE>
+                  <BASE-TYPE-ENCODING>NONE</BASE-TYPE-ENCODING>
+                  <BYTE-ORDER>MOST-SIGNIFICANT-BYTE-FIRST</BYTE-ORDER>
+                </SW-BASE-TYPE>
+                <SW-BASE-TYPE>
+                  <SHORT-NAME>uint32_mot</SHORT-NAME>
+                  <CATEGORY>FIXED_LENGTH</CATEGORY>
+                  <BASE-TYPE-SIZE>32</BASE-TYPE-SIZE>
+                  <BASE-TYPE-ENCODING>NONE</BASE-TYPE-ENCODING>
+                  <BYTE-ORDER>MOST-SIGNIFICANT-BYTE-FIRST</BYTE-ORDER>
+                </SW-BASE-TYPE>
+                <SW-BASE-TYPE>
+                  <SHORT-NAME>uint8_ascii</SHORT-NAME>
+                  <CATEGORY>FIXED_LENGTH</CATEGORY>
+                  <BASE-TYPE-SIZE>8</BASE-TYPE-SIZE>
+                  <BASE-TYPE-ENCODING>WINDOWS-1252</BASE-TYPE-ENCODING>
+                  <BYTE-ORDER>OPAQUE</BYTE-ORDER>
+                </SW-BASE-TYPE>
+                <SW-BASE-TYPE>
+                  <SHORT-NAME>uint8_opaq</SHORT-NAME>
+                  <CATEGORY>FIXED_LENGTH</CATEGORY>
+                  <BASE-TYPE-SIZE>8</BASE-TYPE-SIZE>
+                  <BASE-TYPE-ENCODING>NONE</BASE-TYPE-ENCODING>
+                  <BYTE-ORDER>OPAQUE</BYTE-ORDER>
+                </SW-BASE-TYPE>
+              </ELEMENTS>
+            </AR-PACKAGE>
+          </AR-PACKAGES>
+        </AR-PACKAGE>
+        <AR-PACKAGE>
+          <SHORT-NAME>Dem</SHORT-NAME>
+          <ELEMENTS>
+            <DIAGNOSTIC-CONTRIBUTION-SET>
+              <SHORT-NAME>DemContributionSet</SHORT-NAME>
+              <CATEGORY>DIAGNOSTICS_ECU_EXTRACT</CATEGORY>
+              <COMMON-PROPERTIES>
+                <DIAGNOSTIC-COMMON-PROPS-VARIANTS>
+                  <DIAGNOSTIC-COMMON-PROPS-CONDITIONAL>
+                    <CLEAR-DTC-LIMITATION>CLEAR-ALL-DTCS</CLEAR-DTC-LIMITATION>
+                    <DEBOUNCE-ALGORITHM-PROPSS>
+                      <DIAGNOSTIC-DEBOUNCE-ALGORITHM-PROPS>
+                        <SHORT-NAME>DTC_0x123456_DebounceAlgorithmProperties</SHORT-NAME>
+                        <DEBOUNCE-ALGORITHM>
+                          <DIAG-EVENT-DEBOUNCE-COUNTER-BASED>
+                            <SHORT-NAME>DTC_0x123456_CounterBasedAlgorithm</SHORT-NAME>
+                            <COUNTER-DECREMENT-STEP-SIZE>1</COUNTER-DECREMENT-STEP-SIZE>
+                            <COUNTER-FAILED-THRESHOLD>127</COUNTER-FAILED-THRESHOLD>
+                            <COUNTER-INCREMENT-STEP-SIZE>1</COUNTER-INCREMENT-STEP-SIZE>
+                            <COUNTER-JUMP-DOWN>true</COUNTER-JUMP-DOWN>
+                            <COUNTER-JUMP-UP>false</COUNTER-JUMP-UP>
+                            <COUNTER-PASSED-THRESHOLD>-128</COUNTER-PASSED-THRESHOLD>
+                          </DIAG-EVENT-DEBOUNCE-COUNTER-BASED>
+                        </DEBOUNCE-ALGORITHM>
+                      </DIAGNOSTIC-DEBOUNCE-ALGORITHM-PROPS>
+                      <DIAGNOSTIC-DEBOUNCE-ALGORITHM-PROPS>
+                        <SHORT-NAME>DTC_0xabcdef_DebounceAlgorithmProperties</SHORT-NAME>
+                        <DEBOUNCE-ALGORITHM>
+                          <DIAG-EVENT-DEBOUNCE-COUNTER-BASED>
+                            <SHORT-NAME>DTC_0xabcdef_CounterBasedAlgorithm</SHORT-NAME>
+                            <COUNTER-DECREMENT-STEP-SIZE>1</COUNTER-DECREMENT-STEP-SIZE>
+                            <COUNTER-FAILED-THRESHOLD>127</COUNTER-FAILED-THRESHOLD>
+                            <COUNTER-INCREMENT-STEP-SIZE>1</COUNTER-INCREMENT-STEP-SIZE>
+                            <COUNTER-JUMP-DOWN>true</COUNTER-JUMP-DOWN>
+                            <COUNTER-JUMP-UP>false</COUNTER-JUMP-UP>
+                            <COUNTER-PASSED-THRESHOLD>-128</COUNTER-PASSED-THRESHOLD>
+                          </DIAG-EVENT-DEBOUNCE-COUNTER-BASED>
+                        </DEBOUNCE-ALGORITHM>
+                      </DIAGNOSTIC-DEBOUNCE-ALGORITHM-PROPS>
+                    </DEBOUNCE-ALGORITHM-PROPSS>
+                    <DTC-STATUS-AVAILABILITY-MASK>57</DTC-STATUS-AVAILABILITY-MASK>
+                  </DIAGNOSTIC-COMMON-PROPS-CONDITIONAL>
+                </DIAGNOSTIC-COMMON-PROPS-VARIANTS>
+              </COMMON-PROPERTIES>
+              <ELEMENTS>
+                <DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                  <DIAGNOSTIC-COMMON-ELEMENT-REF DEST="DIAGNOSTIC-AGING">/Diagnostics/Dem/DtcProperties/Agings/DTC_0x123456_Aging</DIAGNOSTIC-COMMON-ELEMENT-REF>
+                </DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                <DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                  <DIAGNOSTIC-COMMON-ELEMENT-REF DEST="DIAGNOSTIC-DATA-IDENTIFIER-SET">/Diagnostics/Dem/DidSets/DTC_0x123456_DidSet</DIAGNOSTIC-COMMON-ELEMENT-REF>
+                </DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                <DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                  <DIAGNOSTIC-COMMON-ELEMENT-REF DEST="DIAGNOSTIC-DEM-PROVIDED-DATA-MAPPING">/Diagnostics/Dem/Mappings/Frequency_Counter_Mapping</DIAGNOSTIC-COMMON-ELEMENT-REF>
+                </DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                <DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                  <DIAGNOSTIC-COMMON-ELEMENT-REF DEST="DIAGNOSTIC-DEM-PROVIDED-DATA-MAPPING">/Diagnostics/Dem/Mappings/Occurrence_Flag_Mapping</DIAGNOSTIC-COMMON-ELEMENT-REF>
+                </DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                <DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                  <DIAGNOSTIC-COMMON-ELEMENT-REF DEST="DIAGNOSTIC-DEM-PROVIDED-DATA-MAPPING">/Diagnostics/Dem/Mappings/Operation_Cycle_Counter_Mapping</DIAGNOSTIC-COMMON-ELEMENT-REF>
+                </DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                <DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                  <DIAGNOSTIC-COMMON-ELEMENT-REF DEST="DIAGNOSTIC-ECU-INSTANCE-PROPS">/Diagnostics/Common/VRTE_EXAMPLE_Properties</DIAGNOSTIC-COMMON-ELEMENT-REF>
+                </DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                <DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                  <DIAGNOSTIC-COMMON-ELEMENT-REF DEST="DIAGNOSTIC-ENABLE-CONDITION-GROUP">/Diagnostics/Dem/EnableConditions/EnableConditionGroup_DEM_SL_ECU_LEVEL</DIAGNOSTIC-COMMON-ELEMENT-REF>
+                </DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                <DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                  <DIAGNOSTIC-COMMON-ELEMENT-REF DEST="DIAGNOSTIC-ENABLE-CONDITION-GROUP">/Diagnostics/Dem/EnableConditions/EnableConditionGroup_DEM_SL_NETWORK_COMM_NO_CLAMP15</DIAGNOSTIC-COMMON-ELEMENT-REF>
+                </DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                <DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                  <DIAGNOSTIC-COMMON-ELEMENT-REF DEST="DIAGNOSTIC-ENABLE-CONDITION-GROUP">/Diagnostics/Dem/EnableConditions/EnableConditionGroup_DEM_SL_NETWORK_COMM_WITH_CLAMP15</DIAGNOSTIC-COMMON-ELEMENT-REF>
+                </DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                <DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                  <DIAGNOSTIC-COMMON-ELEMENT-REF DEST="DIAGNOSTIC-ENABLE-CONDITION-GROUP">/Diagnostics/Dem/EnableConditions/EnableConditionGroup_DEM_SL_POWER_DISTRIBUTION</DIAGNOSTIC-COMMON-ELEMENT-REF>
+                </DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                <DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                  <DIAGNOSTIC-COMMON-ELEMENT-REF DEST="DIAGNOSTIC-ENABLE-CONDITION">/Diagnostics/Dem/EnableConditions/DEM_SL_ECU_LEVEL</DIAGNOSTIC-COMMON-ELEMENT-REF>
+                </DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                <DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                  <DIAGNOSTIC-COMMON-ELEMENT-REF DEST="DIAGNOSTIC-ENABLE-CONDITION">/Diagnostics/Dem/EnableConditions/DEM_SL_NETWORK_COMM_NO_CLAMP15</DIAGNOSTIC-COMMON-ELEMENT-REF>
+                </DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                <DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                  <DIAGNOSTIC-COMMON-ELEMENT-REF DEST="DIAGNOSTIC-ENABLE-CONDITION">/Diagnostics/Dem/EnableConditions/DEM_SL_NETWORK_COMM_WITH_CLAMP15</DIAGNOSTIC-COMMON-ELEMENT-REF>
+                </DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                <DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                  <DIAGNOSTIC-COMMON-ELEMENT-REF DEST="DIAGNOSTIC-ENABLE-CONDITION">/Diagnostics/Dem/EnableConditions/DEM_SL_POWER_DISTRIBUTION</DIAGNOSTIC-COMMON-ELEMENT-REF>
+                </DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                <DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                  <DIAGNOSTIC-COMMON-ELEMENT-REF DEST="DIAGNOSTIC-EVENT">/Diagnostics/Dem/Events/DTC_0x123456_Event</DIAGNOSTIC-COMMON-ELEMENT-REF>
+                </DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                <DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                  <DIAGNOSTIC-COMMON-ELEMENT-REF DEST="DIAGNOSTIC-EVENT">/Diagnostics/Dem/Events/DTC_0xabcdef_Event</DIAGNOSTIC-COMMON-ELEMENT-REF>
+                </DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                <DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                  <DIAGNOSTIC-COMMON-ELEMENT-REF DEST="DIAGNOSTIC-EVENT-TO-DEBOUNCE-ALGORITHM-MAPPING">/Diagnostics/Dem/Mappings/DTC_0x123456_Event_To_DebounceAlgorithmProperties_Mapping</DIAGNOSTIC-COMMON-ELEMENT-REF>
+                </DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                <DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                  <DIAGNOSTIC-COMMON-ELEMENT-REF DEST="DIAGNOSTIC-EVENT-TO-DEBOUNCE-ALGORITHM-MAPPING">/Diagnostics/Dem/Mappings/DTC_0xabcdef_Event_To_DebounceAlgorithmProperties_Mapping</DIAGNOSTIC-COMMON-ELEMENT-REF>
+                </DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                <DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                  <DIAGNOSTIC-COMMON-ELEMENT-REF DEST="DIAGNOSTIC-EVENT-TO-ENABLE-CONDITION-GROUP-MAPPING">/Diagnostics/Dem/Mappings/DTC_0x123456_Event_To_EnableConditionGroup_Mapping</DIAGNOSTIC-COMMON-ELEMENT-REF>
+                </DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                <DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                  <DIAGNOSTIC-COMMON-ELEMENT-REF DEST="DIAGNOSTIC-EVENT-TO-ENABLE-CONDITION-GROUP-MAPPING">/Diagnostics/Dem/Mappings/DTC_0xabcdef_Event_To_EnableConditionGroup_Mapping</DIAGNOSTIC-COMMON-ELEMENT-REF>
+                </DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                <DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                  <DIAGNOSTIC-COMMON-ELEMENT-REF DEST="DIAGNOSTIC-EVENT-TO-OPERATION-CYCLE-MAPPING">/Diagnostics/Dem/Mappings/DTC_0x123456_Event_To_DEM_POWER_Mapping</DIAGNOSTIC-COMMON-ELEMENT-REF>
+                </DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                <DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                  <DIAGNOSTIC-COMMON-ELEMENT-REF DEST="DIAGNOSTIC-EVENT-TO-OPERATION-CYCLE-MAPPING">/Diagnostics/Dem/Mappings/DTC_0xabcdef_Event_To_DEM_POWER_Mapping</DIAGNOSTIC-COMMON-ELEMENT-REF>
+                </DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                <DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                  <DIAGNOSTIC-COMMON-ELEMENT-REF DEST="DIAGNOSTIC-EVENT-TO-TROUBLE-CODE-UDS-MAPPING">/Diagnostics/Dem/Mappings/DTC_0x123456_Event_To_DTC_Mapping</DIAGNOSTIC-COMMON-ELEMENT-REF>
+                </DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                <DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                  <DIAGNOSTIC-COMMON-ELEMENT-REF DEST="DIAGNOSTIC-EVENT-TO-TROUBLE-CODE-UDS-MAPPING">/Diagnostics/Dem/Mappings/DTC_0xabcdef_Event_To_DTC_Mapping</DIAGNOSTIC-COMMON-ELEMENT-REF>
+                </DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                <DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                  <DIAGNOSTIC-COMMON-ELEMENT-REF DEST="DIAGNOSTIC-EXTENDED-DATA-RECORD">/Diagnostics/Dem/ExtendedDataRecords/StandardEnvironmentData</DIAGNOSTIC-COMMON-ELEMENT-REF>
+                </DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                <DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                  <DIAGNOSTIC-COMMON-ELEMENT-REF DEST="DIAGNOSTIC-FREEZE-FRAME">/Diagnostics/Dem/FreezeFrames/First_Occurence</DIAGNOSTIC-COMMON-ELEMENT-REF>
+                </DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                <DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                  <DIAGNOSTIC-COMMON-ELEMENT-REF DEST="DIAGNOSTIC-FREEZE-FRAME">/Diagnostics/Dem/FreezeFrames/Last_Occurence</DIAGNOSTIC-COMMON-ELEMENT-REF>
+                </DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                <DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                  <DIAGNOSTIC-COMMON-ELEMENT-REF DEST="DIAGNOSTIC-MEMORY-DESTINATION-PRIMARY">/Diagnostics/Dem/PrimaryMemory</DIAGNOSTIC-COMMON-ELEMENT-REF>
+                </DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                <DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                  <DIAGNOSTIC-COMMON-ELEMENT-REF DEST="DIAGNOSTIC-OPERATION-CYCLE">/Diagnostics/Dem/OperationCycles/DEM_IGNITION</DIAGNOSTIC-COMMON-ELEMENT-REF>
+                </DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                <DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                  <DIAGNOSTIC-COMMON-ELEMENT-REF DEST="DIAGNOSTIC-OPERATION-CYCLE">/Diagnostics/Dem/OperationCycles/DEM_POWER</DIAGNOSTIC-COMMON-ELEMENT-REF>
+                </DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                <DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                  <DIAGNOSTIC-COMMON-ELEMENT-REF DEST="DIAGNOSTIC-TROUBLE-CODE-PROPS">/Diagnostics/Dem/DtcProperties/DTC_0x123456_Properties</DIAGNOSTIC-COMMON-ELEMENT-REF>
+                </DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                <DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                  <DIAGNOSTIC-COMMON-ELEMENT-REF DEST="DIAGNOSTIC-TROUBLE-CODE-UDS">/Diagnostics/Dem/Dtcs/DTC_0x123456</DIAGNOSTIC-COMMON-ELEMENT-REF>
+                </DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                <DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+                  <DIAGNOSTIC-COMMON-ELEMENT-REF DEST="DIAGNOSTIC-TROUBLE-CODE-UDS">/Diagnostics/Dem/Dtcs/DTC_0xabcdef</DIAGNOSTIC-COMMON-ELEMENT-REF>
+                </DIAGNOSTIC-COMMON-ELEMENT-REF-CONDITIONAL>
+              </ELEMENTS>
+            </DIAGNOSTIC-CONTRIBUTION-SET>
+            <DIAGNOSTIC-MEMORY-DESTINATION-PRIMARY>
+              <SHORT-NAME>PrimaryMemory</SHORT-NAME>
+            </DIAGNOSTIC-MEMORY-DESTINATION-PRIMARY>
+          </ELEMENTS>
+          <AR-PACKAGES>
+            <AR-PACKAGE>
+              <SHORT-NAME>Events</SHORT-NAME>
+              <ELEMENTS>
+                <DIAGNOSTIC-EVENT>
+                  <SHORT-NAME>DTC_0x123456_Event</SHORT-NAME>
+                  <EVENT-FAILURE-CYCLE-COUNTER-THRESHOLD>1</EVENT-FAILURE-CYCLE-COUNTER-THRESHOLD>
+                </DIAGNOSTIC-EVENT>
+                <DIAGNOSTIC-EVENT>
+                  <SHORT-NAME>DTC_0xabcdef_Event</SHORT-NAME>
+                  <EVENT-FAILURE-CYCLE-COUNTER-THRESHOLD>1</EVENT-FAILURE-CYCLE-COUNTER-THRESHOLD>
+                </DIAGNOSTIC-EVENT>
+              </ELEMENTS>
+            </AR-PACKAGE>
+            <AR-PACKAGE>
+              <SHORT-NAME>Dtcs</SHORT-NAME>
+              <ELEMENTS>
+                <DIAGNOSTIC-TROUBLE-CODE-UDS>
+                  <SHORT-NAME>DTC_0x123456</SHORT-NAME>
+                  <DTC-PROPS-REF DEST="DIAGNOSTIC-TROUBLE-CODE-PROPS">/Diagnostics/Dem/DtcProperties/DTC_0x123456_Properties</DTC-PROPS-REF>
+                  <SEVERITY>NO-SEVERITY</SEVERITY>
+                  <UDS-DTC-VALUE>1193046</UDS-DTC-VALUE>
+                </DIAGNOSTIC-TROUBLE-CODE-UDS>
+                <DIAGNOSTIC-TROUBLE-CODE-UDS>
+                  <SHORT-NAME>DTC_0xabcdef</SHORT-NAME>
+                  <DTC-PROPS-REF DEST="DIAGNOSTIC-TROUBLE-CODE-PROPS">/Diagnostics/Dem/DtcProperties/DTC_0x123456_Properties</DTC-PROPS-REF>
+                  <SEVERITY>NO-SEVERITY</SEVERITY>
+                  <UDS-DTC-VALUE>11259375</UDS-DTC-VALUE>
+                </DIAGNOSTIC-TROUBLE-CODE-UDS>
+              </ELEMENTS>
+            </AR-PACKAGE>
+            <AR-PACKAGE>
+              <SHORT-NAME>Mappings</SHORT-NAME>
+              <ELEMENTS>
+                <DIAGNOSTIC-EVENT-TO-DEBOUNCE-ALGORITHM-MAPPING>
+                  <SHORT-NAME>DTC_0x123456_Event_To_DebounceAlgorithmProperties_Mapping</SHORT-NAME>
+                  <DEBOUNCE-ALGORITHM-REF DEST="DIAGNOSTIC-DEBOUNCE-ALGORITHM-PROPS">/Diagnostics/Dem/DemContributionSet/DTC_0x123456_DebounceAlgorithmProperties</DEBOUNCE-ALGORITHM-REF>
+                  <DIAGNOSTIC-EVENT-REF DEST="DIAGNOSTIC-EVENT">/Diagnostics/Dem/Events/DTC_0x123456_Event</DIAGNOSTIC-EVENT-REF>
+                </DIAGNOSTIC-EVENT-TO-DEBOUNCE-ALGORITHM-MAPPING>
+                <DIAGNOSTIC-EVENT-TO-DEBOUNCE-ALGORITHM-MAPPING>
+                  <SHORT-NAME>DTC_0xabcdef_Event_To_DebounceAlgorithmProperties_Mapping</SHORT-NAME>
+                  <DEBOUNCE-ALGORITHM-REF DEST="DIAGNOSTIC-DEBOUNCE-ALGORITHM-PROPS">/Diagnostics/Dem/DemContributionSet/DTC_0xabcdef_DebounceAlgorithmProperties</DEBOUNCE-ALGORITHM-REF>
+                  <DIAGNOSTIC-EVENT-REF DEST="DIAGNOSTIC-EVENT">/Diagnostics/Dem/Events/DTC_0xabcdef_Event</DIAGNOSTIC-EVENT-REF>
+                </DIAGNOSTIC-EVENT-TO-DEBOUNCE-ALGORITHM-MAPPING>
+                <DIAGNOSTIC-EVENT-TO-ENABLE-CONDITION-GROUP-MAPPING>
+                  <SHORT-NAME>DTC_0x123456_Event_To_EnableConditionGroup_Mapping</SHORT-NAME>
+                  <DIAGNOSTIC-EVENT-REF DEST="DIAGNOSTIC-EVENT">/Diagnostics/Dem/Events/DTC_0x123456_Event</DIAGNOSTIC-EVENT-REF>
+                  <ENABLE-CONDITION-GROUP-REF DEST="DIAGNOSTIC-ENABLE-CONDITION-GROUP">/Diagnostics/Dem/EnableConditions/EnableConditionGroup_DEM_SL_NETWORK_COMM_NO_CLAMP15</ENABLE-CONDITION-GROUP-REF>
+                </DIAGNOSTIC-EVENT-TO-ENABLE-CONDITION-GROUP-MAPPING>
+                <DIAGNOSTIC-EVENT-TO-ENABLE-CONDITION-GROUP-MAPPING>
+                  <SHORT-NAME>DTC_0xabcdef_Event_To_EnableConditionGroup_Mapping</SHORT-NAME>
+                  <DIAGNOSTIC-EVENT-REF DEST="DIAGNOSTIC-EVENT">/Diagnostics/Dem/Events/DTC_0xabcdef_Event</DIAGNOSTIC-EVENT-REF>
+                  <ENABLE-CONDITION-GROUP-REF DEST="DIAGNOSTIC-ENABLE-CONDITION-GROUP">/Diagnostics/Dem/EnableConditions/EnableConditionGroup_DEM_SL_ECU_LEVEL</ENABLE-CONDITION-GROUP-REF>
+                </DIAGNOSTIC-EVENT-TO-ENABLE-CONDITION-GROUP-MAPPING>
+                <DIAGNOSTIC-EVENT-TO-OPERATION-CYCLE-MAPPING>
+                  <SHORT-NAME>DTC_0x123456_Event_To_DEM_POWER_Mapping</SHORT-NAME>
+                  <DIAGNOSTIC-EVENT-REF DEST="DIAGNOSTIC-EVENT">/Diagnostics/Dem/Events/DTC_0x123456_Event</DIAGNOSTIC-EVENT-REF>
+                  <OPERATION-CYCLE-REF DEST="DIAGNOSTIC-OPERATION-CYCLE">/Diagnostics/Dem/OperationCycles/DEM_POWER</OPERATION-CYCLE-REF>
+                </DIAGNOSTIC-EVENT-TO-OPERATION-CYCLE-MAPPING>
+                <DIAGNOSTIC-EVENT-TO-OPERATION-CYCLE-MAPPING>
+                  <SHORT-NAME>DTC_0xabcdef_Event_To_DEM_POWER_Mapping</SHORT-NAME>
+                  <DIAGNOSTIC-EVENT-REF DEST="DIAGNOSTIC-EVENT">/Diagnostics/Dem/Events/DTC_0xabcdef_Event</DIAGNOSTIC-EVENT-REF>
+                  <OPERATION-CYCLE-REF DEST="DIAGNOSTIC-OPERATION-CYCLE">/Diagnostics/Dem/OperationCycles/DEM_POWER</OPERATION-CYCLE-REF>
+                </DIAGNOSTIC-EVENT-TO-OPERATION-CYCLE-MAPPING>
+                <DIAGNOSTIC-EVENT-TO-TROUBLE-CODE-UDS-MAPPING>
+                  <SHORT-NAME>DTC_0x123456_Event_To_DTC_Mapping</SHORT-NAME>
+                  <DIAGNOSTIC-EVENT-REF DEST="DIAGNOSTIC-EVENT">/Diagnostics/Dem/Events/DTC_0x123456_Event</DIAGNOSTIC-EVENT-REF>
+                  <TROUBLE-CODE-UDS-REF DEST="DIAGNOSTIC-TROUBLE-CODE-UDS">/Diagnostics/Dem/Dtcs/DTC_0x123456</TROUBLE-CODE-UDS-REF>
+                </DIAGNOSTIC-EVENT-TO-TROUBLE-CODE-UDS-MAPPING>
+                <DIAGNOSTIC-EVENT-TO-TROUBLE-CODE-UDS-MAPPING>
+                  <SHORT-NAME>DTC_0xabcdef_Event_To_DTC_Mapping</SHORT-NAME>
+                  <DIAGNOSTIC-EVENT-REF DEST="DIAGNOSTIC-EVENT">/Diagnostics/Dem/Events/DTC_0xabcdef_Event</DIAGNOSTIC-EVENT-REF>
+                  <TROUBLE-CODE-UDS-REF DEST="DIAGNOSTIC-TROUBLE-CODE-UDS">/Diagnostics/Dem/Dtcs/DTC_0xabcdef</TROUBLE-CODE-UDS-REF>
+                </DIAGNOSTIC-EVENT-TO-TROUBLE-CODE-UDS-MAPPING>
+                <DIAGNOSTIC-DEM-PROVIDED-DATA-MAPPING>
+                  <SHORT-NAME>Frequency_Counter_Mapping</SHORT-NAME>
+                  <DATA-ELEMENT-REF DEST="DIAGNOSTIC-DATA-ELEMENT">/Diagnostics/Dem/ExtendedDataRecords/StandardEnvironmentData/Frequency_Counter</DATA-ELEMENT-REF>
+                  <DATA-PROVIDER>DEM_OCCCTR</DATA-PROVIDER>
+                </DIAGNOSTIC-DEM-PROVIDED-DATA-MAPPING>
+                <DIAGNOSTIC-DEM-PROVIDED-DATA-MAPPING>
+                  <SHORT-NAME>Occurrence_Flag_Mapping</SHORT-NAME>
+                  <DATA-ELEMENT-REF DEST="DIAGNOSTIC-DATA-ELEMENT">/Diagnostics/Dem/ExtendedDataRecords/StandardEnvironmentData/Occurrence_Flag</DATA-ELEMENT-REF>
+                  <DATA-PROVIDER>DEM_SIGNIFICANCE</DATA-PROVIDER>
+                </DIAGNOSTIC-DEM-PROVIDED-DATA-MAPPING>
+                <DIAGNOSTIC-DEM-PROVIDED-DATA-MAPPING>
+                  <SHORT-NAME>Operation_Cycle_Counter_Mapping</SHORT-NAME>
+                  <DATA-ELEMENT-REF DEST="DIAGNOSTIC-DATA-ELEMENT">/Diagnostics/Dem/ExtendedDataRecords/StandardEnvironmentData/Operation_Cycle_Counter</DATA-ELEMENT-REF>
+                  <DATA-PROVIDER>DEM_AGINGCTR</DATA-PROVIDER>
+                </DIAGNOSTIC-DEM-PROVIDED-DATA-MAPPING>
+              </ELEMENTS>
+            </AR-PACKAGE>
+            <AR-PACKAGE>
+              <SHORT-NAME>DtcProperties</SHORT-NAME>
+              <ELEMENTS>
+                <DIAGNOSTIC-TROUBLE-CODE-PROPS>
+                  <SHORT-NAME>DTC_0x123456_Properties</SHORT-NAME>
+                  <ADMIN-DATA>
+                    <SDGS>
+                      <SDG GID="_conversion">
+                        <SDG GID="AGING-ALLOWED">
+                          <SD GID="_mixed">true</SD>
+                        </SDG>
+                        <SD GID="_path">AGING-ALLOWED@2/</SD>
+                        <SD GID="_target">org.artop.aal.autosar4460</SD>
+                      </SDG>
+                    </SDGS>
+                  </ADMIN-DATA>
+                  <AGING-REF DEST="DIAGNOSTIC-AGING">/Diagnostics/Dem/DtcProperties/Agings/DTC_0x123456_Aging</AGING-REF>
+                  <EXTENDED-DATA-RECORDS>
+                    <DIAGNOSTIC-EXTENDED-DATA-RECORD-REF-CONDITIONAL>
+                      <DIAGNOSTIC-EXTENDED-DATA-RECORD-REF DEST="DIAGNOSTIC-EXTENDED-DATA-RECORD">/Diagnostics/Dem/ExtendedDataRecords/StandardEnvironmentData</DIAGNOSTIC-EXTENDED-DATA-RECORD-REF>
+                    </DIAGNOSTIC-EXTENDED-DATA-RECORD-REF-CONDITIONAL>
+                  </EXTENDED-DATA-RECORDS>
+                  <FREEZE-FRAMES>
+                    <DIAGNOSTIC-FREEZE-FRAME-REF-CONDITIONAL>
+                      <DIAGNOSTIC-FREEZE-FRAME-REF DEST="DIAGNOSTIC-FREEZE-FRAME">/Diagnostics/Dem/FreezeFrames/First_Occurence</DIAGNOSTIC-FREEZE-FRAME-REF>
+                    </DIAGNOSTIC-FREEZE-FRAME-REF-CONDITIONAL>
+                    <DIAGNOSTIC-FREEZE-FRAME-REF-CONDITIONAL>
+                      <DIAGNOSTIC-FREEZE-FRAME-REF DEST="DIAGNOSTIC-FREEZE-FRAME">/Diagnostics/Dem/FreezeFrames/Last_Occurence</DIAGNOSTIC-FREEZE-FRAME-REF>
+                    </DIAGNOSTIC-FREEZE-FRAME-REF-CONDITIONAL>
+                  </FREEZE-FRAMES>
+                  <FREEZE-FRAME-CONTENT-REF DEST="DIAGNOSTIC-DATA-IDENTIFIER-SET">/Diagnostics/Dem/DidSets/DTC_0x123456_DidSet</FREEZE-FRAME-CONTENT-REF>
+                  <MEMORY-DESTINATION-REFS>
+                    <MEMORY-DESTINATION-REF DEST="DIAGNOSTIC-MEMORY-DESTINATION-PRIMARY">/Diagnostics/Dem/PrimaryMemory</MEMORY-DESTINATION-REF>
+                  </MEMORY-DESTINATION-REFS>
+                  <PRIORITY>2</PRIORITY>
+                  <SIGNIFICANCE>FAULT</SIGNIFICANCE>
+                </DIAGNOSTIC-TROUBLE-CODE-PROPS>
+              </ELEMENTS>
+              <AR-PACKAGES>
+                <AR-PACKAGE>
+                  <SHORT-NAME>Agings</SHORT-NAME>
+                  <ELEMENTS>
+                    <DIAGNOSTIC-AGING>
+                      <SHORT-NAME>DTC_0x123456_Aging</SHORT-NAME>
+                      <AGING-CYCLES>
+                        <DIAGNOSTIC-OPERATION-CYCLE-REF-CONDITIONAL>
+                          <DIAGNOSTIC-OPERATION-CYCLE-REF DEST="DIAGNOSTIC-OPERATION-CYCLE">/Diagnostics/Dem/OperationCycles/DEM_IGNITION</DIAGNOSTIC-OPERATION-CYCLE-REF>
+                        </DIAGNOSTIC-OPERATION-CYCLE-REF-CONDITIONAL>
+                      </AGING-CYCLES>
+                      <THRESHOLD>1</THRESHOLD>
+                    </DIAGNOSTIC-AGING>
+                  </ELEMENTS>
+                </AR-PACKAGE>
+              </AR-PACKAGES>
+            </AR-PACKAGE>
+            <AR-PACKAGE>
+              <SHORT-NAME>ExtendedDataRecords</SHORT-NAME>
+              <ELEMENTS>
+                <DIAGNOSTIC-EXTENDED-DATA-RECORD>
+                  <SHORT-NAME>StandardEnvironmentData</SHORT-NAME>
+                  <RECORD-ELEMENTS>
+                    <DIAGNOSTIC-PARAMETER>
+                      <BIT-OFFSET>0</BIT-OFFSET>
+                      <DATA-ELEMENTS>
+                        <DIAGNOSTIC-DATA-ELEMENT>
+                          <SHORT-NAME>Occurrence_Flag</SHORT-NAME>
+                          <SW-DATA-DEF-PROPS>
+                            <SW-DATA-DEF-PROPS-VARIANTS>
+                              <SW-DATA-DEF-PROPS-CONDITIONAL>
+                                <BASE-TYPE-REF DEST="SW-BASE-TYPE">/Diagnostics/Common/BaseTypes/uint8_opaq</BASE-TYPE-REF>
+                                <COMPU-METHOD-REF DEST="COMPU-METHOD">/Diagnostics/Common/CompuMethods/Significance</COMPU-METHOD-REF>
+                              </SW-DATA-DEF-PROPS-CONDITIONAL>
+                            </SW-DATA-DEF-PROPS-VARIANTS>
+                          </SW-DATA-DEF-PROPS>
+                        </DIAGNOSTIC-DATA-ELEMENT>
+                      </DATA-ELEMENTS>
+                    </DIAGNOSTIC-PARAMETER>
+                    <DIAGNOSTIC-PARAMETER>
+                      <BIT-OFFSET>8</BIT-OFFSET>
+                      <DATA-ELEMENTS>
+                        <DIAGNOSTIC-DATA-ELEMENT>
+                          <SHORT-NAME>External_Tester_Present_Flag</SHORT-NAME>
+                          <SW-DATA-DEF-PROPS>
+                            <SW-DATA-DEF-PROPS-VARIANTS>
+                              <SW-DATA-DEF-PROPS-CONDITIONAL>
+                                <BASE-TYPE-REF DEST="SW-BASE-TYPE">/Diagnostics/Common/BaseTypes/uint8_opaq</BASE-TYPE-REF>
+                                <COMPU-METHOD-REF DEST="COMPU-METHOD">/Diagnostics/Common/CompuMethods/External_Tester_Present_Flag</COMPU-METHOD-REF>
+                              </SW-DATA-DEF-PROPS-CONDITIONAL>
+                            </SW-DATA-DEF-PROPS-VARIANTS>
+                          </SW-DATA-DEF-PROPS>
+                        </DIAGNOSTIC-DATA-ELEMENT>
+                      </DATA-ELEMENTS>
+                    </DIAGNOSTIC-PARAMETER>
+                    <DIAGNOSTIC-PARAMETER>
+                      <BIT-OFFSET>16</BIT-OFFSET>
+                      <DATA-ELEMENTS>
+                        <DIAGNOSTIC-DATA-ELEMENT>
+                          <SHORT-NAME>Frequency_Counter</SHORT-NAME>
+                          <SW-DATA-DEF-PROPS>
+                            <SW-DATA-DEF-PROPS-VARIANTS>
+                              <SW-DATA-DEF-PROPS-CONDITIONAL>
+                                <BASE-TYPE-REF DEST="SW-BASE-TYPE">/Diagnostics/Common/BaseTypes/uint8_opaq</BASE-TYPE-REF>
+                                <COMPU-METHOD-REF DEST="COMPU-METHOD">/Diagnostics/Common/CompuMethods/Frequency_Counter</COMPU-METHOD-REF>
+                                <DATA-CONSTR-REF DEST="DATA-CONSTR">/Diagnostics/Common/DataConstraints/Frequency_Counter</DATA-CONSTR-REF>
+                              </SW-DATA-DEF-PROPS-CONDITIONAL>
+                            </SW-DATA-DEF-PROPS-VARIANTS>
+                          </SW-DATA-DEF-PROPS>
+                        </DIAGNOSTIC-DATA-ELEMENT>
+                      </DATA-ELEMENTS>
+                    </DIAGNOSTIC-PARAMETER>
+                    <DIAGNOSTIC-PARAMETER>
+                      <BIT-OFFSET>24</BIT-OFFSET>
+                      <DATA-ELEMENTS>
+                        <DIAGNOSTIC-DATA-ELEMENT>
+                          <SHORT-NAME>Operation_Cycle_Counter</SHORT-NAME>
+                          <SW-DATA-DEF-PROPS>
+                            <SW-DATA-DEF-PROPS-VARIANTS>
+                              <SW-DATA-DEF-PROPS-CONDITIONAL>
+                                <BASE-TYPE-REF DEST="SW-BASE-TYPE">/Diagnostics/Common/BaseTypes/uint8_opaq</BASE-TYPE-REF>
+                                <COMPU-METHOD-REF DEST="COMPU-METHOD">/Diagnostics/Common/CompuMethods/Ignition_Cycle_Counter</COMPU-METHOD-REF>
+                                <DATA-CONSTR-REF DEST="DATA-CONSTR">/Diagnostics/Common/DataConstraints/Ignition_Cycle_Counter</DATA-CONSTR-REF>
+                              </SW-DATA-DEF-PROPS-CONDITIONAL>
+                            </SW-DATA-DEF-PROPS-VARIANTS>
+                          </SW-DATA-DEF-PROPS>
+                        </DIAGNOSTIC-DATA-ELEMENT>
+                      </DATA-ELEMENTS>
+                    </DIAGNOSTIC-PARAMETER>
+                  </RECORD-ELEMENTS>
+                  <RECORD-NUMBER>1</RECORD-NUMBER>
+                  <UPDATE>true</UPDATE>
+                </DIAGNOSTIC-EXTENDED-DATA-RECORD>
+              </ELEMENTS>
+            </AR-PACKAGE>
+            <AR-PACKAGE>
+              <SHORT-NAME>FreezeFrames</SHORT-NAME>
+              <ELEMENTS>
+                <DIAGNOSTIC-FREEZE-FRAME>
+                  <SHORT-NAME>First_Occurence</SHORT-NAME>
+                  <RECORD-NUMBER>1</RECORD-NUMBER>
+                  <TRIGGER>CONFIRMED</TRIGGER>
+                </DIAGNOSTIC-FREEZE-FRAME>
+                <DIAGNOSTIC-FREEZE-FRAME>
+                  <SHORT-NAME>Last_Occurence</SHORT-NAME>
+                  
+                  <RECORD-NUMBER>2</RECORD-NUMBER>
+                  <TRIGGER>TEST-FAILED</TRIGGER>
+                </DIAGNOSTIC-FREEZE-FRAME>
+              </ELEMENTS>
+            </AR-PACKAGE>
+            <AR-PACKAGE>
+              <SHORT-NAME>DidSets</SHORT-NAME>
+              <ELEMENTS>
+                <DIAGNOSTIC-DATA-IDENTIFIER-SET>
+                  <SHORT-NAME>DTC_0x123456_DidSet</SHORT-NAME>
+                  <DATA-IDENTIFIER-REFS>
+                    <DATA-IDENTIFIER-REF DEST="DIAGNOSTIC-DATA-IDENTIFIER">/Diagnostics/Common/Vehicle_Odometer_in_Low_Resolution</DATA-IDENTIFIER-REF>
+                    <DATA-IDENTIFIER-REF DEST="DIAGNOSTIC-DATA-IDENTIFIER">/Diagnostics/Common/Current_Operating_Time</DATA-IDENTIFIER-REF>
+                  </DATA-IDENTIFIER-REFS>
+                </DIAGNOSTIC-DATA-IDENTIFIER-SET>
+              </ELEMENTS>
+            </AR-PACKAGE>
+            <AR-PACKAGE>
+              <SHORT-NAME>OperationCycles</SHORT-NAME>
+              <ELEMENTS>
+                <DIAGNOSTIC-OPERATION-CYCLE>
+                  <SHORT-NAME>DEM_IGNITION</SHORT-NAME>
+                  <AUTOMATIC-END>true</AUTOMATIC-END>
+                  <CYCLE-AUTOSTART>false</CYCLE-AUTOSTART>
+                  <CYCLE-STATUS-STORAGE>false</CYCLE-STATUS-STORAGE>
+                  <TYPE>IGNITION</TYPE>
+                </DIAGNOSTIC-OPERATION-CYCLE>
+                <DIAGNOSTIC-OPERATION-CYCLE>
+                  <SHORT-NAME>DEM_POWER</SHORT-NAME>
+                  <AUTOMATIC-END>true</AUTOMATIC-END>
+                  <CYCLE-AUTOSTART>true</CYCLE-AUTOSTART>
+                  <CYCLE-STATUS-STORAGE>false</CYCLE-STATUS-STORAGE>
+                  <TYPE>POWER</TYPE>
+                </DIAGNOSTIC-OPERATION-CYCLE>
+              </ELEMENTS>
+            </AR-PACKAGE>
+            <AR-PACKAGE>
+              <SHORT-NAME>EnableConditions</SHORT-NAME>
+              <ELEMENTS>
+                <DIAGNOSTIC-ENABLE-CONDITION-GROUP>
+                  <SHORT-NAME>EnableConditionGroup_DEM_SL_ECU_LEVEL</SHORT-NAME>
+                  <ENABLE-CONDITIONS>
+                    <DIAGNOSTIC-ENABLE-CONDITION-REF-CONDITIONAL>
+                      <DIAGNOSTIC-ENABLE-CONDITION-REF DEST="DIAGNOSTIC-ENABLE-CONDITION">/Diagnostics/Dem/EnableConditions/DEM_SL_ECU_LEVEL</DIAGNOSTIC-ENABLE-CONDITION-REF>
+                    </DIAGNOSTIC-ENABLE-CONDITION-REF-CONDITIONAL>
+                  </ENABLE-CONDITIONS>
+                </DIAGNOSTIC-ENABLE-CONDITION-GROUP>
+                <DIAGNOSTIC-ENABLE-CONDITION-GROUP>
+                  <SHORT-NAME>EnableConditionGroup_DEM_SL_NETWORK_COMM_NO_CLAMP15</SHORT-NAME>
+                  <ENABLE-CONDITIONS>
+                    <DIAGNOSTIC-ENABLE-CONDITION-REF-CONDITIONAL>
+                      <DIAGNOSTIC-ENABLE-CONDITION-REF DEST="DIAGNOSTIC-ENABLE-CONDITION">/Diagnostics/Dem/EnableConditions/DEM_SL_NETWORK_COMM_NO_CLAMP15</DIAGNOSTIC-ENABLE-CONDITION-REF>
+                    </DIAGNOSTIC-ENABLE-CONDITION-REF-CONDITIONAL>
+                  </ENABLE-CONDITIONS>
+                </DIAGNOSTIC-ENABLE-CONDITION-GROUP>
+                <DIAGNOSTIC-ENABLE-CONDITION-GROUP>
+                  <SHORT-NAME>EnableConditionGroup_DEM_SL_NETWORK_COMM_WITH_CLAMP15</SHORT-NAME>
+                  <ENABLE-CONDITIONS>
+                    <DIAGNOSTIC-ENABLE-CONDITION-REF-CONDITIONAL>
+                      <DIAGNOSTIC-ENABLE-CONDITION-REF DEST="DIAGNOSTIC-ENABLE-CONDITION">/Diagnostics/Dem/EnableConditions/DEM_SL_NETWORK_COMM_WITH_CLAMP15</DIAGNOSTIC-ENABLE-CONDITION-REF>
+                    </DIAGNOSTIC-ENABLE-CONDITION-REF-CONDITIONAL>
+                  </ENABLE-CONDITIONS>
+                </DIAGNOSTIC-ENABLE-CONDITION-GROUP>
+                <DIAGNOSTIC-ENABLE-CONDITION-GROUP>
+                  <SHORT-NAME>EnableConditionGroup_DEM_SL_POWER_DISTRIBUTION</SHORT-NAME>
+                  <ENABLE-CONDITIONS>
+                    <DIAGNOSTIC-ENABLE-CONDITION-REF-CONDITIONAL>
+                      <DIAGNOSTIC-ENABLE-CONDITION-REF DEST="DIAGNOSTIC-ENABLE-CONDITION">/Diagnostics/Dem/EnableConditions/DEM_SL_POWER_DISTRIBUTION</DIAGNOSTIC-ENABLE-CONDITION-REF>
+                    </DIAGNOSTIC-ENABLE-CONDITION-REF-CONDITIONAL>
+                  </ENABLE-CONDITIONS>
+                </DIAGNOSTIC-ENABLE-CONDITION-GROUP>
+                <DIAGNOSTIC-ENABLE-CONDITION>
+                  <SHORT-NAME>DEM_SL_ECU_LEVEL</SHORT-NAME>
+                </DIAGNOSTIC-ENABLE-CONDITION>
+                <DIAGNOSTIC-ENABLE-CONDITION>
+                  <SHORT-NAME>DEM_SL_NETWORK_COMM_NO_CLAMP15</SHORT-NAME>
+                </DIAGNOSTIC-ENABLE-CONDITION>
+                <DIAGNOSTIC-ENABLE-CONDITION>
+                  <SHORT-NAME>DEM_SL_NETWORK_COMM_WITH_CLAMP15</SHORT-NAME>
+                </DIAGNOSTIC-ENABLE-CONDITION>
+                <DIAGNOSTIC-ENABLE-CONDITION>
+                  <SHORT-NAME>DEM_SL_POWER_DISTRIBUTION</SHORT-NAME>
+                </DIAGNOSTIC-ENABLE-CONDITION>
+              </ELEMENTS>
+            </AR-PACKAGE>
+            <AR-PACKAGE>
+              <SHORT-NAME>Indicators</SHORT-NAME>
+            </AR-PACKAGE>
+          </AR-PACKAGES>
+        </AR-PACKAGE>
+        <AR-PACKAGE>
+          <SHORT-NAME>Dcm</SHORT-NAME>
+          <ELEMENTS>
+            <DIAGNOSTIC-ROUTINE>
+              <SHORT-NAME>Check_memory</SHORT-NAME>
+              <ID>514</ID>
+              <START>
+                <SHORT-NAME>Check_memory_Start</SHORT-NAME>
+                <REQUESTS>
+                  <DIAGNOSTIC-PARAMETER>
+                    <BIT-OFFSET>0</BIT-OFFSET>
+                    <DATA-ELEMENTS>
+                      <DIAGNOSTIC-DATA-ELEMENT>
+                        <SHORT-NAME>Signature</SHORT-NAME>
+                        <ARRAY-SIZE-SEMANTICS>FIXED-SIZE</ARRAY-SIZE-SEMANTICS>
+                        <MAX-NUMBER-OF-ELEMENTS>4</MAX-NUMBER-OF-ELEMENTS>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <BASE-TYPE-REF DEST="SW-BASE-TYPE">/Diagnostics/Common/BaseTypes/uint8_opaq</BASE-TYPE-REF>
+                              <COMPU-METHOD-REF DEST="COMPU-METHOD">/Diagnostics/Common/CompuMethods/HexDump</COMPU-METHOD-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </DIAGNOSTIC-DATA-ELEMENT>
+                    </DATA-ELEMENTS>
+                  </DIAGNOSTIC-PARAMETER>
+                </REQUESTS>
+                <RESPONSES>
+                  <DIAGNOSTIC-PARAMETER>
+                    <BIT-OFFSET>0</BIT-OFFSET>
+                    <DATA-ELEMENTS>
+                      <DIAGNOSTIC-DATA-ELEMENT>
+                        <SHORT-NAME>Check_memoryOut</SHORT-NAME>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <BASE-TYPE-REF DEST="SW-BASE-TYPE">/Diagnostics/Common/BaseTypes/uint8_opaq</BASE-TYPE-REF>
+                              <COMPU-METHOD-REF DEST="COMPU-METHOD">/Diagnostics/Common/CompuMethods/routineInfo</COMPU-METHOD-REF>
+                              <DATA-CONSTR-REF DEST="DATA-CONSTR">/Diagnostics/Common/DataConstraints/routineInfo</DATA-CONSTR-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </DIAGNOSTIC-DATA-ELEMENT>
+                    </DATA-ELEMENTS>
+                  </DIAGNOSTIC-PARAMETER>
+                </RESPONSES>
+              </START>
+            </DIAGNOSTIC-ROUTINE>
+            <DIAGNOSTIC-ROUTINE>
+              <SHORT-NAME>Activate_Selftest</SHORT-NAME>
+              <ID>256</ID>
+              <START>
+                <SHORT-NAME>Activate_Selftest_Start</SHORT-NAME>
+                <REQUESTS>
+                  <DIAGNOSTIC-PARAMETER>
+                    <BIT-OFFSET>0</BIT-OFFSET>
+                    <DATA-ELEMENTS>
+                      <DIAGNOSTIC-DATA-ELEMENT>
+                        <SHORT-NAME>StartInput</SHORT-NAME>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <BASE-TYPE-REF DEST="SW-BASE-TYPE">/Diagnostics/Common/BaseTypes/uint8_opaq</BASE-TYPE-REF>
+                              <COMPU-METHOD-REF DEST="COMPU-METHOD">/Diagnostics/Common/CompuMethods/HexDump</COMPU-METHOD-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </DIAGNOSTIC-DATA-ELEMENT>
+                    </DATA-ELEMENTS>
+                  </DIAGNOSTIC-PARAMETER>
+                </REQUESTS>
+                <RESPONSES>
+                  <DIAGNOSTIC-PARAMETER>
+                    <BIT-OFFSET>0</BIT-OFFSET>
+                    <DATA-ELEMENTS>
+                      <DIAGNOSTIC-DATA-ELEMENT>
+                        <SHORT-NAME>StartOutput</SHORT-NAME>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <BASE-TYPE-REF DEST="SW-BASE-TYPE">/Diagnostics/Common/BaseTypes/uint8_opaq</BASE-TYPE-REF>
+                              <COMPU-METHOD-REF DEST="COMPU-METHOD">/Diagnostics/Common/CompuMethods/HexDump</COMPU-METHOD-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </DIAGNOSTIC-DATA-ELEMENT>
+                    </DATA-ELEMENTS>
+                  </DIAGNOSTIC-PARAMETER>
+                </RESPONSES>
+              </START>
+            </DIAGNOSTIC-ROUTINE>
+            <DIAGNOSTIC-ROUTINE>
+              <SHORT-NAME>CheckProgrammingDependencies</SHORT-NAME>
+              <ID>65281</ID>
+              <START>
+                <SHORT-NAME>CheckProgrammingDependencies_Start</SHORT-NAME>
+                <RESPONSES>
+                  <DIAGNOSTIC-PARAMETER>
+                    <BIT-OFFSET>0</BIT-OFFSET>
+                    <DATA-ELEMENTS>
+                      <DIAGNOSTIC-DATA-ELEMENT>
+                        <SHORT-NAME>CheckProgrammingDependenciesOut</SHORT-NAME>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <BASE-TYPE-REF DEST="SW-BASE-TYPE">/Diagnostics/Common/BaseTypes/uint8_opaq</BASE-TYPE-REF>
+                              <COMPU-METHOD-REF DEST="COMPU-METHOD">/Diagnostics/Common/CompuMethods/routineInfo</COMPU-METHOD-REF>
+                              <DATA-CONSTR-REF DEST="DATA-CONSTR">/Diagnostics/Common/DataConstraints/routineInfo</DATA-CONSTR-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </DIAGNOSTIC-DATA-ELEMENT>
+                    </DATA-ELEMENTS>
+                  </DIAGNOSTIC-PARAMETER>
+                </RESPONSES>
+              </START>
+            </DIAGNOSTIC-ROUTINE>
+            <DIAGNOSTIC-ROUTINE>
+              <SHORT-NAME>Erase_Memory</SHORT-NAME>
+              <ID>65280</ID>
+              <START>
+                <SHORT-NAME>Erase_Memory_Start</SHORT-NAME>
+                <REQUESTS>
+                  <DIAGNOSTIC-PARAMETER>
+                    <BIT-OFFSET>0</BIT-OFFSET>
+                    <DATA-ELEMENTS>
+                      <DIAGNOSTIC-DATA-ELEMENT>
+                        <SHORT-NAME>Address_Format_Identifier</SHORT-NAME>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <BASE-TYPE-REF DEST="SW-BASE-TYPE">/Diagnostics/Common/BaseTypes/uint8_opaq</BASE-TYPE-REF>
+                              <COMPU-METHOD-REF DEST="COMPU-METHOD">/Diagnostics/Common/CompuMethods/HexDump_1Byte</COMPU-METHOD-REF>
+                              <DATA-CONSTR-REF DEST="DATA-CONSTR">/Diagnostics/Common/DataConstraints/HexDump_1Byte</DATA-CONSTR-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </DIAGNOSTIC-DATA-ELEMENT>
+                    </DATA-ELEMENTS>
+                  </DIAGNOSTIC-PARAMETER>
+                </REQUESTS>
+                <RESPONSES>
+                  <DIAGNOSTIC-PARAMETER>
+                    <BIT-OFFSET>0</BIT-OFFSET>
+                    <DATA-ELEMENTS>
+                      <DIAGNOSTIC-DATA-ELEMENT>
+                        <SHORT-NAME>Erase_Verification</SHORT-NAME>
+                        <SW-DATA-DEF-PROPS>
+                          <SW-DATA-DEF-PROPS-VARIANTS>
+                            <SW-DATA-DEF-PROPS-CONDITIONAL>
+                              <BASE-TYPE-REF DEST="SW-BASE-TYPE">/Diagnostics/Common/BaseTypes/uint8_opaq</BASE-TYPE-REF>
+                              <COMPU-METHOD-REF DEST="COMPU-METHOD">/Diagnostics/Common/CompuMethods/Erase_Verification_1Byte</COMPU-METHOD-REF>
+                            </SW-DATA-DEF-PROPS-CONDITIONAL>
+                          </SW-DATA-DEF-PROPS-VARIANTS>
+                        </SW-DATA-DEF-PROPS>
+                      </DIAGNOSTIC-DATA-ELEMENT>
+                    </DATA-ELEMENTS>
+                  </DIAGNOSTIC-PARAMETER>
+                </RESPONSES>
+              </START>
+            </DIAGNOSTIC-ROUTINE>
+            <DIAGNOSTIC-SERVICE-TABLE>
+              <SHORT-NAME>SDC_SADC1_C_ServiceTable</SHORT-NAME>
+              <ECU-INSTANCE-REF DEST="ECU-INSTANCE">/Diagnostics/Common/SDC_SADC1_C</ECU-INSTANCE-REF>
+              <SERVICE-INSTANCE-REFS>
+                <SERVICE-INSTANCE-REF DEST="DIAGNOSTIC-READ-DTC-INFORMATION">/Diagnostics/Dcm/ServiceInstances/RDTCBSM</SERVICE-INSTANCE-REF>
+                <SERVICE-INSTANCE-REF DEST="DIAGNOSTIC-READ-DTC-INFORMATION">/Diagnostics/Dcm/ServiceInstances/RNODTCBSM</SERVICE-INSTANCE-REF>
+                <SERVICE-INSTANCE-REF DEST="DIAGNOSTIC-READ-DTC-INFORMATION">/Diagnostics/Dcm/ServiceInstances/RDTCSSBDTC</SERVICE-INSTANCE-REF>
+                <SERVICE-INSTANCE-REF DEST="DIAGNOSTIC-READ-DTC-INFORMATION">/Diagnostics/Dcm/ServiceInstances/RDTCEDRBDN</SERVICE-INSTANCE-REF>
+                <SERVICE-INSTANCE-REF DEST="DIAGNOSTIC-READ-DTC-INFORMATION">/Diagnostics/Dcm/ServiceInstances/RSUPDTC</SERVICE-INSTANCE-REF>
+                <SERVICE-INSTANCE-REF DEST="DIAGNOSTIC-READ-DTC-INFORMATION">/Diagnostics/Dcm/ServiceInstances/RDTCFDC</SERVICE-INSTANCE-REF>
+                <SERVICE-INSTANCE-REF DEST="DIAGNOSTIC-SESSION-CONTROL">/Diagnostics/Dcm/ServiceInstances/Default_SessionControl</SERVICE-INSTANCE-REF>
+                <SERVICE-INSTANCE-REF DEST="DIAGNOSTIC-SESSION-CONTROL">/Diagnostics/Dcm/ServiceInstances/Programming_SessionControl</SERVICE-INSTANCE-REF>
+                <SERVICE-INSTANCE-REF DEST="DIAGNOSTIC-SESSION-CONTROL">/Diagnostics/Dcm/ServiceInstances/Extended_SessionControl</SERVICE-INSTANCE-REF>
+                <SERVICE-INSTANCE-REF DEST="DIAGNOSTIC-ECU-RESET">/Diagnostics/Dcm/ServiceInstances/Hard</SERVICE-INSTANCE-REF>
+                <SERVICE-INSTANCE-REF DEST="DIAGNOSTIC-ECU-RESET">/Diagnostics/Dcm/ServiceInstances/Soft</SERVICE-INSTANCE-REF>
+                <SERVICE-INSTANCE-REF DEST="DIAGNOSTIC-ECU-RESET">/Diagnostics/Dcm/ServiceInstances/KeyOffOn</SERVICE-INSTANCE-REF>
+                <SERVICE-INSTANCE-REF DEST="DIAGNOSTIC-CLEAR-DIAGNOSTIC-INFORMATION">/Diagnostics/Dcm/ServiceInstances/ClearDiagInfo</SERVICE-INSTANCE-REF>
+                <SERVICE-INSTANCE-REF DEST="DIAGNOSTIC-READ-DATA-BY-IDENTIFIER">/Diagnostics/Dcm/ServiceInstances/Programming_Date_Data_Identifier_Read</SERVICE-INSTANCE-REF>
+                <SERVICE-INSTANCE-REF DEST="DIAGNOSTIC-READ-DATA-BY-IDENTIFIER">/Diagnostics/Dcm/ServiceInstances/Application_Software_Identification_Read</SERVICE-INSTANCE-REF>
+                <SERVICE-INSTANCE-REF DEST="DIAGNOSTIC-READ-DATA-BY-IDENTIFIER">/Diagnostics/Dcm/ServiceInstances/ActiveDiagnosticSession_Read</SERVICE-INSTANCE-REF>
+                <SERVICE-INSTANCE-REF DEST="DIAGNOSTIC-READ-DATA-BY-IDENTIFIER">/Diagnostics/Dcm/ServiceInstances/BootSoftwareIdentification_Read</SERVICE-INSTANCE-REF>
+                <SERVICE-INSTANCE-REF DEST="DIAGNOSTIC-READ-DATA-BY-IDENTIFIER">/Diagnostics/Dcm/ServiceInstances/CalibrationSoftwareIdentification_Read</SERVICE-INSTANCE-REF>
+                <SERVICE-INSTANCE-REF DEST="DIAGNOSTIC-READ-DATA-BY-IDENTIFIER">/Diagnostics/Dcm/ServiceInstances/FirmwareSoftwareIdentification_Read</SERVICE-INSTANCE-REF>
+                <SERVICE-INSTANCE-REF DEST="DIAGNOSTIC-READ-DATA-BY-IDENTIFIER">/Diagnostics/Dcm/ServiceInstances/Record_Measured_Stored_Value_Read</SERVICE-INSTANCE-REF>
+                <SERVICE-INSTANCE-REF DEST="DIAGNOSTIC-READ-DATA-BY-IDENTIFIER">/Diagnostics/Dcm/ServiceInstances/Vehicle_Manufacturer_ECU_Hardware_Number_Read</SERVICE-INSTANCE-REF>
+                <SERVICE-INSTANCE-REF DEST="DIAGNOSTIC-READ-DATA-BY-IDENTIFIER">/Diagnostics/Dcm/ServiceInstances/Application_Data_Fingerprint_Read</SERVICE-INSTANCE-REF>
+                <SERVICE-INSTANCE-REF DEST="DIAGNOSTIC-READ-DATA-BY-IDENTIFIER">/Diagnostics/Dcm/ServiceInstances/PartSerialNumber_Read</SERVICE-INSTANCE-REF>
+                <SERVICE-INSTANCE-REF DEST="DIAGNOSTIC-READ-DATA-BY-IDENTIFIER">/Diagnostics/Dcm/ServiceInstances/VINDataIdentifier_Read</SERVICE-INSTANCE-REF>
+                <SERVICE-INSTANCE-REF DEST="DIAGNOSTIC-SECURITY-ACCESS">/Diagnostics/Dcm/ServiceInstances/SECA_LEV_1_SecurityAccess</SERVICE-INSTANCE-REF>
+                <SERVICE-INSTANCE-REF DEST="DIAGNOSTIC-SECURITY-ACCESS">/Diagnostics/Dcm/ServiceInstances/SECA_LEV_3_SecurityAccess</SERVICE-INSTANCE-REF>
+                <SERVICE-INSTANCE-REF DEST="DIAGNOSTIC-COM-CONTROL">/Diagnostics/Dcm/ServiceInstances/EnableRxAndTx</SERVICE-INSTANCE-REF>
+                <SERVICE-INSTANCE-REF DEST="DIAGNOSTIC-COM-CONTROL">/Diagnostics/Dcm/ServiceInstances/EnableRxAndDisableTx</SERVICE-INSTANCE-REF>
+                <SERVICE-INSTANCE-REF DEST="DIAGNOSTIC-COM-CONTROL">/Diagnostics/Dcm/ServiceInstances/DisableRxAndTx</SERVICE-INSTANCE-REF>
+                <SERVICE-INSTANCE-REF DEST="DIAGNOSTIC-WRITE-DATA-BY-IDENTIFIER">/Diagnostics/Dcm/ServiceInstances/Programming_Date_Data_Identifier_Write</SERVICE-INSTANCE-REF>
+				<SERVICE-INSTANCE-REF DEST="DIAGNOSTIC-WRITE-DATA-BY-IDENTIFIER">/Diagnostics/Dcm/ServiceInstances/Application_Data_Fingerprint_Write</SERVICE-INSTANCE-REF>
+                <SERVICE-INSTANCE-REF DEST="DIAGNOSTIC-WRITE-DATA-BY-IDENTIFIER">/Diagnostics/Dcm/ServiceInstances/Write_ECU_Private_Key_Write</SERVICE-INSTANCE-REF>
+                <SERVICE-INSTANCE-REF DEST="DIAGNOSTIC-WRITE-DATA-BY-IDENTIFIER">/Diagnostics/Dcm/ServiceInstances/VINDataIdentifier_Write</SERVICE-INSTANCE-REF>
+				<SERVICE-INSTANCE-REF DEST="DIAGNOSTIC-WRITE-DATA-BY-IDENTIFIER">/Diagnostics/Dcm/ServiceInstances/Erase_Key_Write</SERVICE-INSTANCE-REF>
+                <SERVICE-INSTANCE-REF DEST="DIAGNOSTIC-ROUTINE-CONTROL">/Diagnostics/Dcm/ServiceInstances/Check_memory</SERVICE-INSTANCE-REF>
+                <SERVICE-INSTANCE-REF DEST="DIAGNOSTIC-ROUTINE-CONTROL">/Diagnostics/Dcm/ServiceInstances/Activate_Selftest</SERVICE-INSTANCE-REF>
+                <SERVICE-INSTANCE-REF DEST="DIAGNOSTIC-ROUTINE-CONTROL">/Diagnostics/Dcm/ServiceInstances/Erase_Memory</SERVICE-INSTANCE-REF>
+                <SERVICE-INSTANCE-REF DEST="DIAGNOSTIC-ROUTINE-CONTROL">/Diagnostics/Dcm/ServiceInstances/CheckProgrammingDependencies</SERVICE-INSTANCE-REF>
+                <SERVICE-INSTANCE-REF DEST="DIAGNOSTIC-REQUEST-DOWNLOAD">/Diagnostics/Dcm/ServiceInstances/RequestDownload</SERVICE-INSTANCE-REF>
+                <SERVICE-INSTANCE-REF DEST="DIAGNOSTIC-DATA-TRANSFER">/Diagnostics/Dcm/ServiceInstances/TransferData</SERVICE-INSTANCE-REF>
+                <SERVICE-INSTANCE-REF DEST="DIAGNOSTIC-TRANSFER-EXIT">/Diagnostics/Dcm/ServiceInstances/RequestTransferExit</SERVICE-INSTANCE-REF>
+                <SERVICE-INSTANCE-REF DEST="DIAGNOSTIC-CONTROL-DTC-SETTING">/Diagnostics/Dcm/ServiceInstances/Enable</SERVICE-INSTANCE-REF>
+                <SERVICE-INSTANCE-REF DEST="DIAGNOSTIC-CONTROL-DTC-SETTING">/Diagnostics/Dcm/ServiceInstances/Disable</SERVICE-INSTANCE-REF>
+              </SERVICE-INSTANCE-REFS>
+            </DIAGNOSTIC-SERVICE-TABLE>
+            <DIAGNOSTIC-ACCESS-PERMISSION>
+              <SHORT-NAME>AP_All</SHORT-NAME>
+            </DIAGNOSTIC-ACCESS-PERMISSION>
+            <DIAGNOSTIC-ACCESS-PERMISSION>
+              <SHORT-NAME>AP_Comb_0001</SHORT-NAME>
+              <DIAGNOSTIC-SESSION-REFS>
+                <DIAGNOSTIC-SESSION-REF DEST="DIAGNOSTIC-SESSION">/Diagnostics/Dcm/DiagnosticSessions/Default</DIAGNOSTIC-SESSION-REF>
+                <DIAGNOSTIC-SESSION-REF DEST="DIAGNOSTIC-SESSION">/Diagnostics/Dcm/DiagnosticSessions/Extended</DIAGNOSTIC-SESSION-REF>
+              </DIAGNOSTIC-SESSION-REFS>
+            </DIAGNOSTIC-ACCESS-PERMISSION>
+            <DIAGNOSTIC-ACCESS-PERMISSION>
+              <SHORT-NAME>AP_Comb_0002</SHORT-NAME>
+              <DIAGNOSTIC-SESSION-REFS>
+                <DIAGNOSTIC-SESSION-REF DEST="DIAGNOSTIC-SESSION">/Diagnostics/Dcm/DiagnosticSessions/Extended</DIAGNOSTIC-SESSION-REF>
+                <DIAGNOSTIC-SESSION-REF DEST="DIAGNOSTIC-SESSION">/Diagnostics/Dcm/DiagnosticSessions/Programming</DIAGNOSTIC-SESSION-REF>
+              </DIAGNOSTIC-SESSION-REFS>
+            </DIAGNOSTIC-ACCESS-PERMISSION>
+            <DIAGNOSTIC-ACCESS-PERMISSION>
+              <SHORT-NAME>AP_Comb_0003</SHORT-NAME>
+              <DIAGNOSTIC-SESSION-REFS>
+                <DIAGNOSTIC-SESSION-REF DEST="DIAGNOSTIC-SESSION">/Diagnostics/Dcm/DiagnosticSessions/Extended</DIAGNOSTIC-SESSION-REF>
+              </DIAGNOSTIC-SESSION-REFS>
+              <SECURITY-LEVEL-REFS>
+                <SECURITY-LEVEL-REF DEST="DIAGNOSTIC-SECURITY-LEVEL">/Diagnostics/Dcm/SecurityLevels/SECA_LEV_1</SECURITY-LEVEL-REF>
+              </SECURITY-LEVEL-REFS>
+            </DIAGNOSTIC-ACCESS-PERMISSION>
+            <DIAGNOSTIC-ACCESS-PERMISSION>
+              <SHORT-NAME>AP_Comb_0004</SHORT-NAME>
+              <DIAGNOSTIC-SESSION-REFS>
+                <DIAGNOSTIC-SESSION-REF DEST="DIAGNOSTIC-SESSION">/Diagnostics/Dcm/DiagnosticSessions/Programming</DIAGNOSTIC-SESSION-REF>
+              </DIAGNOSTIC-SESSION-REFS>
+              <SECURITY-LEVEL-REFS>
+                <SECURITY-LEVEL-REF DEST="DIAGNOSTIC-SECURITY-LEVEL">/Diagnostics/Dcm/SecurityLevels/SECA_LEV_3</SECURITY-LEVEL-REF>
+              </SECURITY-LEVEL-REFS>
+            </DIAGNOSTIC-ACCESS-PERMISSION>
+            <DIAGNOSTIC-ACCESS-PERMISSION>
+              <SHORT-NAME>AP_Comb_0005</SHORT-NAME>
+              <DIAGNOSTIC-SESSION-REFS>
+                <DIAGNOSTIC-SESSION-REF DEST="DIAGNOSTIC-SESSION">/Diagnostics/Dcm/DiagnosticSessions/Extended</DIAGNOSTIC-SESSION-REF>
+                <DIAGNOSTIC-SESSION-REF DEST="DIAGNOSTIC-SESSION">/Diagnostics/Dcm/DiagnosticSessions/Programming</DIAGNOSTIC-SESSION-REF>
+              </DIAGNOSTIC-SESSION-REFS>
+              <SECURITY-LEVEL-REFS>
+                <SECURITY-LEVEL-REF DEST="DIAGNOSTIC-SECURITY-LEVEL">/Diagnostics/Dcm/SecurityLevels/SECA_LEV_1</SECURITY-LEVEL-REF>
+                <SECURITY-LEVEL-REF DEST="DIAGNOSTIC-SECURITY-LEVEL">/Diagnostics/Dcm/SecurityLevels/SECA_LEV_3</SECURITY-LEVEL-REF>
+              </SECURITY-LEVEL-REFS>
+            </DIAGNOSTIC-ACCESS-PERMISSION>
+            <DIAGNOSTIC-ACCESS-PERMISSION>
+              <SHORT-NAME>AP_Extended</SHORT-NAME>
+              <DIAGNOSTIC-SESSION-REFS>
+                <DIAGNOSTIC-SESSION-REF DEST="DIAGNOSTIC-SESSION">/Diagnostics/Dcm/DiagnosticSessions/Extended</DIAGNOSTIC-SESSION-REF>
+              </DIAGNOSTIC-SESSION-REFS>
+            </DIAGNOSTIC-ACCESS-PERMISSION>
+            <DIAGNOSTIC-ACCESS-PERMISSION>
+              <SHORT-NAME>AP_Programming</SHORT-NAME>
+              <DIAGNOSTIC-SESSION-REFS>
+                <DIAGNOSTIC-SESSION-REF DEST="DIAGNOSTIC-SESSION">/Diagnostics/Dcm/DiagnosticSessions/Programming</DIAGNOSTIC-SESSION-REF>
+              </DIAGNOSTIC-SESSION-REFS>
+            </DIAGNOSTIC-ACCESS-PERMISSION>
+          </ELEMENTS>
+          <AR-PACKAGES>
+            <AR-PACKAGE>
+              <SHORT-NAME>DiagnosticSessions</SHORT-NAME>
+              <ELEMENTS>
+                <DIAGNOSTIC-SESSION>
+                  <SHORT-NAME>Default</SHORT-NAME>
+				  <ADMIN-DATA>
+                    <SDGS>
+                      <SDG GID="RB:VRTE">
+                        <SDG GID="DIA">
+                          <SDF GID="p2ServerMaxThreshold"><VALUE>10</VALUE></SDF>
+                          <SDF GID="p2StarServerMaxThreshold"><VALUE>500</VALUE></SDF>
+                        </SDG>
+                      </SDG>
+                    </SDGS>
+                  </ADMIN-DATA> 
+                  <ID>1</ID>
+                  <JUMP-TO-BOOT-LOADER>NO-BOOT</JUMP-TO-BOOT-LOADER>
+                  <P-2-SERVER-MAX>0.05</P-2-SERVER-MAX>
+                  <P-2-STAR-SERVER-MAX>5</P-2-STAR-SERVER-MAX>                                   
+                </DIAGNOSTIC-SESSION>
+                <DIAGNOSTIC-SESSION>
+                  <SHORT-NAME>Extended</SHORT-NAME>
+				  <ADMIN-DATA>
+                    <SDGS>
+                      <SDG GID="RB:VRTE">
+                        <SDG GID="DIA">
+                          <SDF GID="p2ServerMaxThreshold"><VALUE>10</VALUE></SDF>
+                          <SDF GID="p2StarServerMaxThreshold"><VALUE>500</VALUE></SDF>
+                        </SDG>
+                      </SDG>
+                    </SDGS>
+                  </ADMIN-DATA>
+                  <ID>3</ID>
+                  <JUMP-TO-BOOT-LOADER>NO-BOOT</JUMP-TO-BOOT-LOADER>
+                  <P-2-SERVER-MAX>0.05</P-2-SERVER-MAX>
+                  <P-2-STAR-SERVER-MAX>5</P-2-STAR-SERVER-MAX>                                    
+                </DIAGNOSTIC-SESSION>
+                <DIAGNOSTIC-SESSION>
+                  <SHORT-NAME>Programming</SHORT-NAME>
+				  <ADMIN-DATA>
+                    <SDGS>
+                      <SDG GID="RB:VRTE">
+                        <SDG GID="DIA">
+                          <SDF GID="p2ServerMaxThreshold"><VALUE>10</VALUE></SDF>
+                          <SDF GID="p2StarServerMaxThreshold"><VALUE>500</VALUE></SDF>
+                        </SDG>
+                      </SDG>
+                    </SDGS>
+                  </ADMIN-DATA>
+                  <ID>2</ID>
+                  <P-2-SERVER-MAX>0.05</P-2-SERVER-MAX>
+                  <P-2-STAR-SERVER-MAX>5</P-2-STAR-SERVER-MAX>                                    
+                </DIAGNOSTIC-SESSION>
+              </ELEMENTS>
+            </AR-PACKAGE>
+            <AR-PACKAGE>
+              <SHORT-NAME>SecurityLevels</SHORT-NAME>
+              <ELEMENTS>
+                <DIAGNOSTIC-SECURITY-LEVEL>
+                  <SHORT-NAME>SECA_LEV_1</SHORT-NAME>
+                  <KEY-SIZE>72</KEY-SIZE>
+                  <NUM-FAILED-SECURITY-ACCESS>3</NUM-FAILED-SECURITY-ACCESS>
+                  <SECURITY-DELAY-TIME>10</SECURITY-DELAY-TIME>
+                  <SEED-SIZE>72</SEED-SIZE>
+                </DIAGNOSTIC-SECURITY-LEVEL>
+                <DIAGNOSTIC-SECURITY-LEVEL>
+                  <SHORT-NAME>SECA_LEV_3</SHORT-NAME>
+                  <KEY-SIZE>72</KEY-SIZE>
+                  <NUM-FAILED-SECURITY-ACCESS>3</NUM-FAILED-SECURITY-ACCESS>
+                  <SECURITY-DELAY-TIME>10</SECURITY-DELAY-TIME>
+                  <SEED-SIZE>72</SEED-SIZE>
+                </DIAGNOSTIC-SECURITY-LEVEL>
+              </ELEMENTS>
+            </AR-PACKAGE>
+            <AR-PACKAGE>
+              <SHORT-NAME>ServiceClasses</SHORT-NAME>
+              <ELEMENTS>
+                <DIAGNOSTIC-CLEAR-DIAGNOSTIC-INFORMATION-CLASS>
+                  <SHORT-NAME>ClearDiagnosticInformationClass</SHORT-NAME>
+                  <DESC>
+                    <L-2 L="FOR-ALL">;FaultMem_ClearGroup</L-2>
+                  </DESC>
+                  <ACCESS-PERMISSION-VALIDITY>ACCESS-PERMISSION-SERVICE-INSTANCE</ACCESS-PERMISSION-VALIDITY>
+                </DIAGNOSTIC-CLEAR-DIAGNOSTIC-INFORMATION-CLASS>
+                <DIAGNOSTIC-COM-CONTROL-CLASS>
+                  <SHORT-NAME>ComControlClass</SHORT-NAME>
+                  <DESC>
+                    <L-2 L="FOR-ALL">;EnableRxAndEnableTx_Control;EnableRxAndDisableTx_Control</L-2>
+                  </DESC>
+                  <ACCESS-PERMISSION-VALIDITY>ACCESS-PERMISSION-SERVICE-INSTANCE</ACCESS-PERMISSION-VALIDITY>
+                </DIAGNOSTIC-COM-CONTROL-CLASS>
+                <DIAGNOSTIC-CONTROL-DTC-SETTING-CLASS>
+                  <SHORT-NAME>ControlDtcSettingClass</SHORT-NAME>
+                  <DESC>
+                    <L-2 L="FOR-ALL">;DTC_Setting_Mode_On_Control;DTC_Setting_Mode_Off_Control</L-2>
+                  </DESC>
+                  <ACCESS-PERMISSION-VALIDITY>ACCESS-PERMISSION-SERVICE-INSTANCE</ACCESS-PERMISSION-VALIDITY>
+                  <CONTROL-OPTION-RECORD-PRESENT>false</CONTROL-OPTION-RECORD-PRESENT>
+                </DIAGNOSTIC-CONTROL-DTC-SETTING-CLASS>
+                <DIAGNOSTIC-DATA-TRANSFER-CLASS>
+                  <SHORT-NAME>DataTransferClass</SHORT-NAME>
+                  <DESC>
+                    <L-2 L="FOR-ALL">;TransferData</L-2>
+                  </DESC>
+                  <ACCESS-PERMISSION-VALIDITY>ACCESS-PERMISSION-SERVICE-INSTANCE</ACCESS-PERMISSION-VALIDITY>
+                </DIAGNOSTIC-DATA-TRANSFER-CLASS>
+                <DIAGNOSTIC-ECU-RESET-CLASS>
+                  <SHORT-NAME>EcuResetClass</SHORT-NAME>
+                  <DESC>
+                    <L-2 L="FOR-ALL">;HardReset;SoftReset</L-2>
+                  </DESC>
+                  <ACCESS-PERMISSION-VALIDITY>ACCESS-PERMISSION-SERVICE-INSTANCE</ACCESS-PERMISSION-VALIDITY>
+                </DIAGNOSTIC-ECU-RESET-CLASS>
+                <DIAGNOSTIC-READ-DATA-BY-IDENTIFIER-CLASS>
+                  <SHORT-NAME>ReadDataByIdentifierClass</SHORT-NAME>
+                  <DESC>
+                    <L-2 L="FOR-ALL">;Programming_Date_Data_Identifier_Read;Application_Software_Identification_Read;ActiveDiagnosticSession_Read;BootSoftwareIdentification_Read;CalibrationSoftwareIdentification_Read;FirmwareSoftwareIdentification_Read;Record_Measured_Stored_Value_Read;Vehicle_Manufacturer_ECU_Hardware_Number_Read;Application_Data_Fingerprint_Read;PartSerialNumber_Read;TesterSerialNumberDataIdentifier_Read;VINDataIdentifier_Read</L-2>
+                  </DESC>
+                  <ACCESS-PERMISSION-VALIDITY>ACCESS-PERMISSION-SERVICE-INSTANCE</ACCESS-PERMISSION-VALIDITY>
+                  <MAX-DID-TO-READ>1</MAX-DID-TO-READ>
+                </DIAGNOSTIC-READ-DATA-BY-IDENTIFIER-CLASS>
+                <DIAGNOSTIC-READ-DTC-INFORMATION-CLASS>
+                  <SHORT-NAME>ReadDtcInformationClass</SHORT-NAME>
+                  <DESC>
+                    <L-2 L="FOR-ALL">;FaultMem_ReportDTCByStatusMask</L-2>
+                  </DESC>
+                  <ACCESS-PERMISSION-VALIDITY>ACCESS-PERMISSION-SERVICE-INSTANCE</ACCESS-PERMISSION-VALIDITY>
+                </DIAGNOSTIC-READ-DTC-INFORMATION-CLASS>
+                <DIAGNOSTIC-REQUEST-DOWNLOAD-CLASS>
+                  <SHORT-NAME>RequestDownloadClass</SHORT-NAME>
+                  <DESC>
+                    <L-2 L="FOR-ALL">;RequestDownload</L-2>
+                  </DESC>
+                  <ACCESS-PERMISSION-VALIDITY>ACCESS-PERMISSION-SERVICE-INSTANCE</ACCESS-PERMISSION-VALIDITY>
+                </DIAGNOSTIC-REQUEST-DOWNLOAD-CLASS>
+                <DIAGNOSTIC-ROUTINE-CONTROL-CLASS>
+                  <SHORT-NAME>RoutineControlClass</SHORT-NAME>
+                  <DESC>
+                    <L-2 L="FOR-ALL">;Check_memory_Start;Activate_Selftest_Start;Erase_Memory_Start;CheckProgrammingDependencies_Start</L-2>
+                  </DESC>
+                  <ACCESS-PERMISSION-VALIDITY>ACCESS-PERMISSION-SERVICE-INSTANCE</ACCESS-PERMISSION-VALIDITY>
+                </DIAGNOSTIC-ROUTINE-CONTROL-CLASS>
+                <DIAGNOSTIC-SECURITY-ACCESS-CLASS>
+                  <SHORT-NAME>SecurityAccessClass</SHORT-NAME>
+                  <DESC>
+                    <L-2 L="FOR-ALL">;Request_Seed_Reprogramming;Send_Key_Reprogramming</L-2>
+                  </DESC>
+                  <ACCESS-PERMISSION-VALIDITY>ACCESS-PERMISSION-SERVICE-INSTANCE</ACCESS-PERMISSION-VALIDITY>
+                </DIAGNOSTIC-SECURITY-ACCESS-CLASS>
+                <DIAGNOSTIC-SESSION-CONTROL-CLASS>
+                  <SHORT-NAME>SessionControlClass</SHORT-NAME>
+                  <DESC>
+                    <L-2 L="FOR-ALL">;Default_Start;ProgrammingStart;Extended_Start</L-2>
+                  </DESC>
+                  <ACCESS-PERMISSION-VALIDITY>ACCESS-PERMISSION-SERVICE-INSTANCE</ACCESS-PERMISSION-VALIDITY>
+                </DIAGNOSTIC-SESSION-CONTROL-CLASS>
+                <DIAGNOSTIC-TRANSFER-EXIT-CLASS>
+                  <SHORT-NAME>TransferExitClass</SHORT-NAME>
+                  <DESC>
+                    <L-2 L="FOR-ALL">;RequestTransferExit</L-2>
+                  </DESC>
+                  <ACCESS-PERMISSION-VALIDITY>ACCESS-PERMISSION-SERVICE-INSTANCE</ACCESS-PERMISSION-VALIDITY>
+                </DIAGNOSTIC-TRANSFER-EXIT-CLASS>
+                <DIAGNOSTIC-WRITE-DATA-BY-IDENTIFIER-CLASS>
+                  <SHORT-NAME>WriteDataByIdentifierClass</SHORT-NAME>
+                  <DESC>
+                    <L-2 L="FOR-ALL">;Programming_Date_Data_Identifier_Write;TesterSerialNumberDataIdentifier_Write;Application_Data_Fingerprint_Write;Write_ECU_Private_Key_Write;VINDataIdentifier_Write;Erase_Key_Write</L-2>
+                  </DESC>
+                  <ACCESS-PERMISSION-VALIDITY>ACCESS-PERMISSION-SERVICE-INSTANCE</ACCESS-PERMISSION-VALIDITY>
+                </DIAGNOSTIC-WRITE-DATA-BY-IDENTIFIER-CLASS>
+              </ELEMENTS>
+            </AR-PACKAGE>
+            <AR-PACKAGE>
+              <SHORT-NAME>ServiceInstances</SHORT-NAME>
+              <ELEMENTS>
+                <DIAGNOSTIC-CLEAR-DIAGNOSTIC-INFORMATION>
+                  <SHORT-NAME>ClearDiagInfo</SHORT-NAME>
+                  <DESC>
+                    <L-2 L="FOR-ALL">&lt;condition Cond_ID="C56"&gt; Only if ECU is supporting a Fault Memory (Production and Aftersales relevant) &lt;/condition&gt;
+&lt;condition Cond_ID="C45"&gt; Only if ECU is running in application mode &lt;/condition&gt;</L-2>
+                  </DESC>
+                  <ACCESS-PERMISSION-REF DEST="DIAGNOSTIC-ACCESS-PERMISSION">/Diagnostics/Dcm/AP_Comb_0001</ACCESS-PERMISSION-REF>
+                  <CLEAR-DIAGNOSTIC-INFORMATION-CLASS-REF DEST="DIAGNOSTIC-CLEAR-DIAGNOSTIC-INFORMATION-CLASS">/Diagnostics/Dcm/ServiceClasses/ClearDiagnosticInformationClass</CLEAR-DIAGNOSTIC-INFORMATION-CLASS-REF>
+                </DIAGNOSTIC-CLEAR-DIAGNOSTIC-INFORMATION>
+                <DIAGNOSTIC-COM-CONTROL>
+                  <SHORT-NAME>EnableRxAndDisableTx</SHORT-NAME>
+                  <CATEGORY>ENABLE_RX_AND_DISABLE_TX</CATEGORY>
+                  <ACCESS-PERMISSION-REF DEST="DIAGNOSTIC-ACCESS-PERMISSION">/Diagnostics/Dcm/AP_Extended</ACCESS-PERMISSION-REF>
+                  <COM-CONTROL-CLASS-REF DEST="DIAGNOSTIC-COM-CONTROL-CLASS">/Diagnostics/Dcm/ServiceClasses/ComControlClass</COM-CONTROL-CLASS-REF>
+                </DIAGNOSTIC-COM-CONTROL>
+                <DIAGNOSTIC-COM-CONTROL>
+                  <SHORT-NAME>DisableRxAndTx</SHORT-NAME>
+                  <CATEGORY>DISABLE_RX_AND_TX</CATEGORY>
+                  <ACCESS-PERMISSION-REF DEST="DIAGNOSTIC-ACCESS-PERMISSION">/Diagnostics/Dcm/AP_Extended</ACCESS-PERMISSION-REF>
+                  <COM-CONTROL-CLASS-REF DEST="DIAGNOSTIC-COM-CONTROL-CLASS">/Diagnostics/Dcm/ServiceClasses/ComControlClass</COM-CONTROL-CLASS-REF>
+                </DIAGNOSTIC-COM-CONTROL>
+                <DIAGNOSTIC-COM-CONTROL>
+                  <SHORT-NAME>EnableRxAndTx</SHORT-NAME>
+                  <CATEGORY>ENABLE_RX_AND_TX</CATEGORY>
+                  <ACCESS-PERMISSION-REF DEST="DIAGNOSTIC-ACCESS-PERMISSION">/Diagnostics/Dcm/AP_Extended</ACCESS-PERMISSION-REF>
+                  <COM-CONTROL-CLASS-REF DEST="DIAGNOSTIC-COM-CONTROL-CLASS">/Diagnostics/Dcm/ServiceClasses/ComControlClass</COM-CONTROL-CLASS-REF>
+                </DIAGNOSTIC-COM-CONTROL>
+                <DIAGNOSTIC-CONTROL-DTC-SETTING>
+                  <SHORT-NAME>Disable</SHORT-NAME>
+                  <ACCESS-PERMISSION-REF DEST="DIAGNOSTIC-ACCESS-PERMISSION">/Diagnostics/Dcm/AP_Comb_0002</ACCESS-PERMISSION-REF>
+                  <DTC-SETTING-CLASS-REF DEST="DIAGNOSTIC-CONTROL-DTC-SETTING-CLASS">/Diagnostics/Dcm/ServiceClasses/ControlDtcSettingClass</DTC-SETTING-CLASS-REF>
+                  <DTC-SETTING-PARAMETER>2</DTC-SETTING-PARAMETER>
+                </DIAGNOSTIC-CONTROL-DTC-SETTING>
+                <DIAGNOSTIC-CONTROL-DTC-SETTING>
+                  <SHORT-NAME>Enable</SHORT-NAME>
+                  <ACCESS-PERMISSION-REF DEST="DIAGNOSTIC-ACCESS-PERMISSION">/Diagnostics/Dcm/AP_Comb_0002</ACCESS-PERMISSION-REF>
+                  <DTC-SETTING-CLASS-REF DEST="DIAGNOSTIC-CONTROL-DTC-SETTING-CLASS">/Diagnostics/Dcm/ServiceClasses/ControlDtcSettingClass</DTC-SETTING-CLASS-REF>
+                  <DTC-SETTING-PARAMETER>1</DTC-SETTING-PARAMETER>
+                </DIAGNOSTIC-CONTROL-DTC-SETTING>
+                <DIAGNOSTIC-DATA-TRANSFER>
+                  <SHORT-NAME>TransferData</SHORT-NAME>
+                  <DESC>
+                    <L-2 L="FOR-ALL">TransferData (Download)
+&lt;condition Cond_ID="C13"&gt; Only if ECU supports RequestDownload service or RequestUpload service &lt;/condition&gt;
+&lt;condition Cond_ID="C46"&gt; Only if ECU is running in flash boot loader mode &lt;/condition&gt;
+&lt;condition Cond_ID="C59"&gt; Optional if ECU is running in application mode &lt;/condition&gt;
+TransferData (Upload)
+&lt;condition Cond_ID="C13"&gt; Only if ECU supports RequestDownload service or RequestUpload service &lt;/condition&gt;
+&lt;condition Cond_ID="C45"&gt; Only if ECU is running in application mode &lt;/condition&gt;</L-2>
+                  </DESC>
+                  <ACCESS-PERMISSION-REF DEST="DIAGNOSTIC-ACCESS-PERMISSION">/Diagnostics/Dcm/AP_Comb_0004</ACCESS-PERMISSION-REF>
+                  <DATA-TRANSFER-CLASS-REF DEST="DIAGNOSTIC-DATA-TRANSFER-CLASS">/Diagnostics/Dcm/ServiceClasses/DataTransferClass</DATA-TRANSFER-CLASS-REF>
+                </DIAGNOSTIC-DATA-TRANSFER>
+                <DIAGNOSTIC-ECU-RESET>
+                  <SHORT-NAME>Hard</SHORT-NAME>
+                  <CATEGORY>HARD_RESET</CATEGORY>
+                  <ACCESS-PERMISSION-REF DEST="DIAGNOSTIC-ACCESS-PERMISSION">/Diagnostics/Dcm/AP_Comb_0002</ACCESS-PERMISSION-REF>
+                  <ECU-RESET-CLASS-REF DEST="DIAGNOSTIC-ECU-RESET-CLASS">/Diagnostics/Dcm/ServiceClasses/EcuResetClass</ECU-RESET-CLASS-REF>
+                </DIAGNOSTIC-ECU-RESET>
+                <DIAGNOSTIC-ECU-RESET>
+                  <SHORT-NAME>Soft</SHORT-NAME>
+                  <CATEGORY>SOFT_RESET</CATEGORY>
+                  <ACCESS-PERMISSION-REF DEST="DIAGNOSTIC-ACCESS-PERMISSION">/Diagnostics/Dcm/AP_Comb_0002</ACCESS-PERMISSION-REF>
+                  <ECU-RESET-CLASS-REF DEST="DIAGNOSTIC-ECU-RESET-CLASS">/Diagnostics/Dcm/ServiceClasses/EcuResetClass</ECU-RESET-CLASS-REF>
+                </DIAGNOSTIC-ECU-RESET>
+                <DIAGNOSTIC-ECU-RESET>
+                  <SHORT-NAME>KeyOffOn</SHORT-NAME>
+                  <CATEGORY>KEY_OFF_ON_RESET</CATEGORY>
+                  <ACCESS-PERMISSION-REF DEST="DIAGNOSTIC-ACCESS-PERMISSION">/Diagnostics/Dcm/AP_Comb_0002</ACCESS-PERMISSION-REF>
+                  <ECU-RESET-CLASS-REF DEST="DIAGNOSTIC-ECU-RESET-CLASS">/Diagnostics/Dcm/ServiceClasses/EcuResetClass</ECU-RESET-CLASS-REF>
+                </DIAGNOSTIC-ECU-RESET>
+                <DIAGNOSTIC-READ-DATA-BY-IDENTIFIER>
+                  <SHORT-NAME>ActiveDiagnosticSession_Read</SHORT-NAME>
+                  <ACCESS-PERMISSION-REF DEST="DIAGNOSTIC-ACCESS-PERMISSION">/Diagnostics/Dcm/AP_All</ACCESS-PERMISSION-REF>
+                  <DATA-IDENTIFIER-REF DEST="DIAGNOSTIC-DATA-IDENTIFIER">/Diagnostics/Common/ActiveDiagnosticSession</DATA-IDENTIFIER-REF>
+                  <READ-CLASS-REF DEST="DIAGNOSTIC-READ-DATA-BY-IDENTIFIER-CLASS">/Diagnostics/Dcm/ServiceClasses/ReadDataByIdentifierClass</READ-CLASS-REF>
+                </DIAGNOSTIC-READ-DATA-BY-IDENTIFIER>
+                <DIAGNOSTIC-READ-DATA-BY-IDENTIFIER>
+                  <SHORT-NAME>BootSoftwareIdentification_Read</SHORT-NAME>
+                  <ACCESS-PERMISSION-REF DEST="DIAGNOSTIC-ACCESS-PERMISSION">/Diagnostics/Dcm/AP_All</ACCESS-PERMISSION-REF>
+                  <DATA-IDENTIFIER-REF DEST="DIAGNOSTIC-DATA-IDENTIFIER">/Diagnostics/Common/BootSoftwareIdentification</DATA-IDENTIFIER-REF>
+                  <READ-CLASS-REF DEST="DIAGNOSTIC-READ-DATA-BY-IDENTIFIER-CLASS">/Diagnostics/Dcm/ServiceClasses/ReadDataByIdentifierClass</READ-CLASS-REF>
+                </DIAGNOSTIC-READ-DATA-BY-IDENTIFIER>
+                <DIAGNOSTIC-READ-DATA-BY-IDENTIFIER>
+                  <SHORT-NAME>CalibrationSoftwareIdentification_Read</SHORT-NAME>
+                  <ACCESS-PERMISSION-REF DEST="DIAGNOSTIC-ACCESS-PERMISSION">/Diagnostics/Dcm/AP_All</ACCESS-PERMISSION-REF>
+                  <DATA-IDENTIFIER-REF DEST="DIAGNOSTIC-DATA-IDENTIFIER">/Diagnostics/Common/CalibrationSoftwareIdentification</DATA-IDENTIFIER-REF>
+                  <READ-CLASS-REF DEST="DIAGNOSTIC-READ-DATA-BY-IDENTIFIER-CLASS">/Diagnostics/Dcm/ServiceClasses/ReadDataByIdentifierClass</READ-CLASS-REF>
+                </DIAGNOSTIC-READ-DATA-BY-IDENTIFIER>
+                <DIAGNOSTIC-READ-DATA-BY-IDENTIFIER>
+                  <SHORT-NAME>FirmwareSoftwareIdentification_Read</SHORT-NAME>
+                  <ACCESS-PERMISSION-REF DEST="DIAGNOSTIC-ACCESS-PERMISSION">/Diagnostics/Dcm/AP_All</ACCESS-PERMISSION-REF>
+                  <DATA-IDENTIFIER-REF DEST="DIAGNOSTIC-DATA-IDENTIFIER">/Diagnostics/Common/FirmwareSoftwareIdentification</DATA-IDENTIFIER-REF>
+                  <READ-CLASS-REF DEST="DIAGNOSTIC-READ-DATA-BY-IDENTIFIER-CLASS">/Diagnostics/Dcm/ServiceClasses/ReadDataByIdentifierClass</READ-CLASS-REF>
+                </DIAGNOSTIC-READ-DATA-BY-IDENTIFIER>
+                <DIAGNOSTIC-READ-DATA-BY-IDENTIFIER>
+                  <SHORT-NAME>Record_Measured_Stored_Value_Read</SHORT-NAME>
+                  <ACCESS-PERMISSION-REF DEST="DIAGNOSTIC-ACCESS-PERMISSION">/Diagnostics/Dcm/AP_All</ACCESS-PERMISSION-REF>
+                  <DATA-IDENTIFIER-REF DEST="DIAGNOSTIC-DATA-IDENTIFIER">/Diagnostics/Common/Record_Measured_Stored_Value</DATA-IDENTIFIER-REF>
+                  <READ-CLASS-REF DEST="DIAGNOSTIC-READ-DATA-BY-IDENTIFIER-CLASS">/Diagnostics/Dcm/ServiceClasses/ReadDataByIdentifierClass</READ-CLASS-REF>
+                </DIAGNOSTIC-READ-DATA-BY-IDENTIFIER>
+                <DIAGNOSTIC-READ-DATA-BY-IDENTIFIER>
+                  <SHORT-NAME>PartSerialNumber_Read</SHORT-NAME>
+                  <ACCESS-PERMISSION-REF DEST="DIAGNOSTIC-ACCESS-PERMISSION">/Diagnostics/Dcm/AP_All</ACCESS-PERMISSION-REF>
+                  <DATA-IDENTIFIER-REF DEST="DIAGNOSTIC-DATA-IDENTIFIER">/Diagnostics/Common/PartSerialNumber</DATA-IDENTIFIER-REF>
+                  <READ-CLASS-REF DEST="DIAGNOSTIC-READ-DATA-BY-IDENTIFIER-CLASS">/Diagnostics/Dcm/ServiceClasses/ReadDataByIdentifierClass</READ-CLASS-REF>
+                </DIAGNOSTIC-READ-DATA-BY-IDENTIFIER>
+                <DIAGNOSTIC-READ-DATA-BY-IDENTIFIER>
+                  <SHORT-NAME>TesterSerialNumberDataIdentifier_Read</SHORT-NAME>
+                  <ACCESS-PERMISSION-REF DEST="DIAGNOSTIC-ACCESS-PERMISSION">/Diagnostics/Dcm/AP_All</ACCESS-PERMISSION-REF>
+                  <DATA-IDENTIFIER-REF DEST="DIAGNOSTIC-DATA-IDENTIFIER">/Diagnostics/Common/TesterSerialNumberDataIdentifier</DATA-IDENTIFIER-REF>
+                  <READ-CLASS-REF DEST="DIAGNOSTIC-READ-DATA-BY-IDENTIFIER-CLASS">/Diagnostics/Dcm/ServiceClasses/ReadDataByIdentifierClass</READ-CLASS-REF>
+                </DIAGNOSTIC-READ-DATA-BY-IDENTIFIER>
+                <DIAGNOSTIC-READ-DATA-BY-IDENTIFIER>
+                  <SHORT-NAME>Vehicle_Manufacturer_ECU_Hardware_Number_Read</SHORT-NAME>
+                  <ACCESS-PERMISSION-REF DEST="DIAGNOSTIC-ACCESS-PERMISSION">/Diagnostics/Dcm/AP_All</ACCESS-PERMISSION-REF>
+                  <DATA-IDENTIFIER-REF DEST="DIAGNOSTIC-DATA-IDENTIFIER">/Diagnostics/Common/Vehicle_Manufacturer_ECU_Hardware_Number</DATA-IDENTIFIER-REF>
+                  <READ-CLASS-REF DEST="DIAGNOSTIC-READ-DATA-BY-IDENTIFIER-CLASS">/Diagnostics/Dcm/ServiceClasses/ReadDataByIdentifierClass</READ-CLASS-REF>
+                </DIAGNOSTIC-READ-DATA-BY-IDENTIFIER>
+                <DIAGNOSTIC-READ-DATA-BY-IDENTIFIER>
+                  <SHORT-NAME>Application_Data_Fingerprint_Read</SHORT-NAME>
+                  <ACCESS-PERMISSION-REF DEST="DIAGNOSTIC-ACCESS-PERMISSION">/Diagnostics/Dcm/AP_All</ACCESS-PERMISSION-REF>
+                  <DATA-IDENTIFIER-REF DEST="DIAGNOSTIC-DATA-IDENTIFIER">/Diagnostics/Common/Application_Data_Fingerprint</DATA-IDENTIFIER-REF>
+                  <READ-CLASS-REF DEST="DIAGNOSTIC-READ-DATA-BY-IDENTIFIER-CLASS">/Diagnostics/Dcm/ServiceClasses/ReadDataByIdentifierClass</READ-CLASS-REF>
+                </DIAGNOSTIC-READ-DATA-BY-IDENTIFIER>
+                <DIAGNOSTIC-READ-DATA-BY-IDENTIFIER>
+                  <SHORT-NAME>Programming_Date_Data_Identifier_Read</SHORT-NAME>
+                  <ACCESS-PERMISSION-REF DEST="DIAGNOSTIC-ACCESS-PERMISSION">/Diagnostics/Dcm/AP_All</ACCESS-PERMISSION-REF>
+                  <DATA-IDENTIFIER-REF DEST="DIAGNOSTIC-DATA-IDENTIFIER">/Diagnostics/Common/Programming_Date_Data_Identifier</DATA-IDENTIFIER-REF>
+                  <READ-CLASS-REF DEST="DIAGNOSTIC-READ-DATA-BY-IDENTIFIER-CLASS">/Diagnostics/Dcm/ServiceClasses/ReadDataByIdentifierClass</READ-CLASS-REF>
+                </DIAGNOSTIC-READ-DATA-BY-IDENTIFIER>
+                <DIAGNOSTIC-READ-DATA-BY-IDENTIFIER>
+                  <SHORT-NAME>Application_Software_Identification_Read</SHORT-NAME>
+                  <ACCESS-PERMISSION-REF DEST="DIAGNOSTIC-ACCESS-PERMISSION">/Diagnostics/Dcm/AP_All</ACCESS-PERMISSION-REF>
+                  <DATA-IDENTIFIER-REF DEST="DIAGNOSTIC-DATA-IDENTIFIER">/Diagnostics/Common/Application_Software_Identification</DATA-IDENTIFIER-REF>
+                  <READ-CLASS-REF DEST="DIAGNOSTIC-READ-DATA-BY-IDENTIFIER-CLASS">/Diagnostics/Dcm/ServiceClasses/ReadDataByIdentifierClass</READ-CLASS-REF>
+                </DIAGNOSTIC-READ-DATA-BY-IDENTIFIER>
+                <DIAGNOSTIC-READ-DATA-BY-IDENTIFIER>
+                  <SHORT-NAME>VINDataIdentifier_Read</SHORT-NAME>
+                  <ACCESS-PERMISSION-REF DEST="DIAGNOSTIC-ACCESS-PERMISSION">/Diagnostics/Dcm/AP_All</ACCESS-PERMISSION-REF>
+                  <DATA-IDENTIFIER-REF DEST="DIAGNOSTIC-DATA-IDENTIFIER">/Diagnostics/Common/VINDataIdentifier</DATA-IDENTIFIER-REF>
+                  <READ-CLASS-REF DEST="DIAGNOSTIC-READ-DATA-BY-IDENTIFIER-CLASS">/Diagnostics/Dcm/ServiceClasses/ReadDataByIdentifierClass</READ-CLASS-REF>
+                </DIAGNOSTIC-READ-DATA-BY-IDENTIFIER>
+                <DIAGNOSTIC-READ-DTC-INFORMATION>
+                  <SHORT-NAME>RDTCBSM</SHORT-NAME>
+                  <DESC>
+                    <L-2 L="FOR-ALL">&lt;condition Cond_ID="C56"&gt; Only if ECU is supporting a Fault Memory (Production and Aftersales relevant) &lt;/condition&gt;
+&lt;condition Cond_ID="C45"&gt; Only if ECU is running in application mode &lt;/condition&gt;</L-2>
+                  </DESC>
+                  <CATEGORY>REPORT_DTC_BY_STATUS_MASK</CATEGORY>
+                  <ACCESS-PERMISSION-REF DEST="DIAGNOSTIC-ACCESS-PERMISSION">/Diagnostics/Dcm/AP_Comb_0001</ACCESS-PERMISSION-REF>
+                  <READ-DTC-INFORMATION-CLASS-REF DEST="DIAGNOSTIC-READ-DTC-INFORMATION-CLASS">/Diagnostics/Dcm/ServiceClasses/ReadDtcInformationClass</READ-DTC-INFORMATION-CLASS-REF>
+                </DIAGNOSTIC-READ-DTC-INFORMATION>
+                <DIAGNOSTIC-READ-DTC-INFORMATION>
+                  <SHORT-NAME>RDTCEDRBDN</SHORT-NAME>
+                  <DESC>
+                    <L-2 L="FOR-ALL">&lt;condition Cond_ID="C56"&gt; Only if ECU is supporting a Fault Memory (Production and Aftersales relevant) &lt;/condition&gt;
+&lt;condition Cond_ID="C45"&gt; Only if ECU is running in application mode &lt;/condition&gt;</L-2>
+                  </DESC>
+                  <CATEGORY>REPORT_DTC_EXT_DATA_RECORD_BY_DTC_NUMBER</CATEGORY>
+                  <ACCESS-PERMISSION-REF DEST="DIAGNOSTIC-ACCESS-PERMISSION">/Diagnostics/Dcm/AP_Comb_0001</ACCESS-PERMISSION-REF>
+                  <READ-DTC-INFORMATION-CLASS-REF DEST="DIAGNOSTIC-READ-DTC-INFORMATION-CLASS">/Diagnostics/Dcm/ServiceClasses/ReadDtcInformationClass</READ-DTC-INFORMATION-CLASS-REF>
+                </DIAGNOSTIC-READ-DTC-INFORMATION>
+                <DIAGNOSTIC-READ-DTC-INFORMATION>
+                  <SHORT-NAME>RDTCFDC</SHORT-NAME>
+                  <DESC>
+                    <L-2 L="FOR-ALL">&lt;condition Cond_ID="C56"&gt; Only if ECU is supporting a Fault Memory (Production and Aftersales relevant) &lt;/condition&gt;
+&lt;condition Cond_ID="C7"&gt; Only if the internal debouncing mechanism from the DEM of the AUTOSAR Standard Software is used &lt;/condition&gt;
+&lt;condition Cond_ID="C45"&gt; Only if ECU is running in application mode &lt;/condition&gt;</L-2>
+                  </DESC>
+                  <CATEGORY>REPORT_DTC_FAULT_DETECTION_COUNTER</CATEGORY>
+                  <ACCESS-PERMISSION-REF DEST="DIAGNOSTIC-ACCESS-PERMISSION">/Diagnostics/Dcm/AP_Comb_0001</ACCESS-PERMISSION-REF>
+                  <READ-DTC-INFORMATION-CLASS-REF DEST="DIAGNOSTIC-READ-DTC-INFORMATION-CLASS">/Diagnostics/Dcm/ServiceClasses/ReadDtcInformationClass</READ-DTC-INFORMATION-CLASS-REF>
+                </DIAGNOSTIC-READ-DTC-INFORMATION>
+                <DIAGNOSTIC-READ-DTC-INFORMATION>
+                  <SHORT-NAME>RDTCSSBDTC</SHORT-NAME>
+                  <DESC>
+                    <L-2 L="FOR-ALL">&lt;condition Cond_ID="C56"&gt; Only if ECU is supporting a Fault Memory (Production and Aftersales relevant) &lt;/condition&gt;
+&lt;condition Cond_ID="C45"&gt; Only if ECU is running in application mode &lt;/condition&gt;</L-2>
+                  </DESC>
+                  <CATEGORY>REPORT_DTC_SNAPSHOT_RECORD_BY_DTC_NUMBER</CATEGORY>
+                  <ACCESS-PERMISSION-REF DEST="DIAGNOSTIC-ACCESS-PERMISSION">/Diagnostics/Dcm/AP_Comb_0001</ACCESS-PERMISSION-REF>
+                  <READ-DTC-INFORMATION-CLASS-REF DEST="DIAGNOSTIC-READ-DTC-INFORMATION-CLASS">/Diagnostics/Dcm/ServiceClasses/ReadDtcInformationClass</READ-DTC-INFORMATION-CLASS-REF>
+                </DIAGNOSTIC-READ-DTC-INFORMATION>
+                <DIAGNOSTIC-READ-DTC-INFORMATION>
+                  <SHORT-NAME>RNODTCBSM</SHORT-NAME>
+                  <DESC>
+                    <L-2 L="FOR-ALL">&lt;condition Cond_ID="C56"&gt; Only if ECU is supporting a Fault Memory (Production and Aftersales relevant) &lt;/condition&gt;
+&lt;condition Cond_ID="C45"&gt; Only if ECU is running in application mode &lt;/condition&gt;</L-2>
+                  </DESC>
+                  <CATEGORY>REPORT_NUMBER_OF_DTC_BY_STATUS_MASK</CATEGORY>
+                  <ACCESS-PERMISSION-REF DEST="DIAGNOSTIC-ACCESS-PERMISSION">/Diagnostics/Dcm/AP_Comb_0001</ACCESS-PERMISSION-REF>
+                  <READ-DTC-INFORMATION-CLASS-REF DEST="DIAGNOSTIC-READ-DTC-INFORMATION-CLASS">/Diagnostics/Dcm/ServiceClasses/ReadDtcInformationClass</READ-DTC-INFORMATION-CLASS-REF>
+                </DIAGNOSTIC-READ-DTC-INFORMATION>
+                <DIAGNOSTIC-READ-DTC-INFORMATION>
+                  <SHORT-NAME>RSUPDTC</SHORT-NAME>
+                  <DESC>
+                    <L-2 L="FOR-ALL">&lt;condition Cond_ID="C56"&gt; Only if ECU is supporting a Fault Memory (Production and Aftersales relevant) &lt;/condition&gt;
+&lt;condition Cond_ID="C45"&gt; Only if ECU is running in application mode &lt;/condition&gt;</L-2>
+                  </DESC>
+                  <CATEGORY>REPORT_SUPPORTED_DTC</CATEGORY>
+                  <ACCESS-PERMISSION-REF DEST="DIAGNOSTIC-ACCESS-PERMISSION">/Diagnostics/Dcm/AP_Comb_0001</ACCESS-PERMISSION-REF>
+                  <READ-DTC-INFORMATION-CLASS-REF DEST="DIAGNOSTIC-READ-DTC-INFORMATION-CLASS">/Diagnostics/Dcm/ServiceClasses/ReadDtcInformationClass</READ-DTC-INFORMATION-CLASS-REF>
+                </DIAGNOSTIC-READ-DTC-INFORMATION>
+                <DIAGNOSTIC-REQUEST-DOWNLOAD>
+                  <SHORT-NAME>RequestDownload</SHORT-NAME>
+                  <DESC>
+                    <L-2 L="FOR-ALL">&lt;condition Cond_ID="C1"&gt; Only if ECU is reprogrammable. &lt;/condition&gt;
+&lt;condition Cond_ID="C46"&gt; Only if ECU is running in flash boot loader mode &lt;/condition&gt;
+&lt;condition Cond_ID="C59"&gt; Optional if ECU is running in application mode &lt;/condition&gt;</L-2>
+                  </DESC>
+                  <ACCESS-PERMISSION-REF DEST="DIAGNOSTIC-ACCESS-PERMISSION">/Diagnostics/Dcm/AP_Comb_0004</ACCESS-PERMISSION-REF>
+                  <REQUEST-DOWNLOAD-CLASS-REF DEST="DIAGNOSTIC-REQUEST-DOWNLOAD-CLASS">/Diagnostics/Dcm/ServiceClasses/RequestDownloadClass</REQUEST-DOWNLOAD-CLASS-REF>
+                </DIAGNOSTIC-REQUEST-DOWNLOAD>
+                <DIAGNOSTIC-ROUTINE-CONTROL>
+                  <SHORT-NAME>Check_memory</SHORT-NAME>
+                  <ACCESS-PERMISSION-REF DEST="DIAGNOSTIC-ACCESS-PERMISSION">/Diagnostics/Dcm/AP_Comb_0004</ACCESS-PERMISSION-REF>
+                  <ROUTINE-CONTROL-CLASS-REF DEST="DIAGNOSTIC-ROUTINE-CONTROL-CLASS">/Diagnostics/Dcm/ServiceClasses/RoutineControlClass</ROUTINE-CONTROL-CLASS-REF>
+                  <ROUTINE-REF DEST="DIAGNOSTIC-ROUTINE">/Diagnostics/Dcm/Check_memory</ROUTINE-REF>
+                </DIAGNOSTIC-ROUTINE-CONTROL>
+                <DIAGNOSTIC-ROUTINE-CONTROL>
+                  <SHORT-NAME>Activate_Selftest</SHORT-NAME>
+                  <ACCESS-PERMISSION-REF DEST="DIAGNOSTIC-ACCESS-PERMISSION">/Diagnostics/Dcm/AP_Comb_0003</ACCESS-PERMISSION-REF>
+                  <ROUTINE-CONTROL-CLASS-REF DEST="DIAGNOSTIC-ROUTINE-CONTROL-CLASS">/Diagnostics/Dcm/ServiceClasses/RoutineControlClass</ROUTINE-CONTROL-CLASS-REF>
+                  <ROUTINE-REF DEST="DIAGNOSTIC-ROUTINE">/Diagnostics/Dcm/Activate_Selftest</ROUTINE-REF>
+                </DIAGNOSTIC-ROUTINE-CONTROL>
+                <DIAGNOSTIC-ROUTINE-CONTROL>
+                  <SHORT-NAME>CheckProgrammingDependencies</SHORT-NAME>
+                  <ACCESS-PERMISSION-REF DEST="DIAGNOSTIC-ACCESS-PERMISSION">/Diagnostics/Dcm/AP_Comb_0004</ACCESS-PERMISSION-REF>
+                  <ROUTINE-CONTROL-CLASS-REF DEST="DIAGNOSTIC-ROUTINE-CONTROL-CLASS">/Diagnostics/Dcm/ServiceClasses/RoutineControlClass</ROUTINE-CONTROL-CLASS-REF>
+                  <ROUTINE-REF DEST="DIAGNOSTIC-ROUTINE">/Diagnostics/Dcm/CheckProgrammingDependencies</ROUTINE-REF>
+                </DIAGNOSTIC-ROUTINE-CONTROL>
+                <DIAGNOSTIC-ROUTINE-CONTROL>
+                  <SHORT-NAME>Erase_Memory</SHORT-NAME>
+                  <ACCESS-PERMISSION-REF DEST="DIAGNOSTIC-ACCESS-PERMISSION">/Diagnostics/Dcm/AP_Comb_0004</ACCESS-PERMISSION-REF>
+                  <ROUTINE-CONTROL-CLASS-REF DEST="DIAGNOSTIC-ROUTINE-CONTROL-CLASS">/Diagnostics/Dcm/ServiceClasses/RoutineControlClass</ROUTINE-CONTROL-CLASS-REF>
+                  <ROUTINE-REF DEST="DIAGNOSTIC-ROUTINE">/Diagnostics/Dcm/Erase_Memory</ROUTINE-REF>
+                </DIAGNOSTIC-ROUTINE-CONTROL>
+                <DIAGNOSTIC-SECURITY-ACCESS>
+                  <SHORT-NAME>SECA_LEV_1_SecurityAccess</SHORT-NAME>
+                  <ACCESS-PERMISSION-REF DEST="DIAGNOSTIC-ACCESS-PERMISSION">/Diagnostics/Dcm/AP_Extended</ACCESS-PERMISSION-REF>
+                  <REQUEST-SEED-ID>1</REQUEST-SEED-ID>
+                  <SECURITY-ACCESS-CLASS-REF DEST="DIAGNOSTIC-SECURITY-ACCESS-CLASS">/Diagnostics/Dcm/ServiceClasses/SecurityAccessClass</SECURITY-ACCESS-CLASS-REF>
+                  <SECURITY-LEVEL-REF DEST="DIAGNOSTIC-SECURITY-LEVEL">/Diagnostics/Dcm/SecurityLevels/SECA_LEV_1</SECURITY-LEVEL-REF>
+                </DIAGNOSTIC-SECURITY-ACCESS>
+                <DIAGNOSTIC-SECURITY-ACCESS>
+                  <SHORT-NAME>SECA_LEV_3_SecurityAccess</SHORT-NAME>
+                  <ACCESS-PERMISSION-REF DEST="DIAGNOSTIC-ACCESS-PERMISSION">/Diagnostics/Dcm/AP_Programming</ACCESS-PERMISSION-REF>
+                  <REQUEST-SEED-ID>3</REQUEST-SEED-ID>
+                  <SECURITY-ACCESS-CLASS-REF DEST="DIAGNOSTIC-SECURITY-ACCESS-CLASS">/Diagnostics/Dcm/ServiceClasses/SecurityAccessClass</SECURITY-ACCESS-CLASS-REF>
+                  <SECURITY-LEVEL-REF DEST="DIAGNOSTIC-SECURITY-LEVEL">/Diagnostics/Dcm/SecurityLevels/SECA_LEV_3</SECURITY-LEVEL-REF>
+                </DIAGNOSTIC-SECURITY-ACCESS>
+                <DIAGNOSTIC-SESSION-CONTROL>
+                  <SHORT-NAME>Default_SessionControl</SHORT-NAME>
+                  <ACCESS-PERMISSION-REF DEST="DIAGNOSTIC-ACCESS-PERMISSION">/Diagnostics/Dcm/AP_All</ACCESS-PERMISSION-REF>
+                  <DIAGNOSTIC-SESSION-REF DEST="DIAGNOSTIC-SESSION">/Diagnostics/Dcm/DiagnosticSessions/Default</DIAGNOSTIC-SESSION-REF>
+                  <SESSION-CONTROL-CLASS-REF DEST="DIAGNOSTIC-SESSION-CONTROL-CLASS">/Diagnostics/Dcm/ServiceClasses/SessionControlClass</SESSION-CONTROL-CLASS-REF>
+                </DIAGNOSTIC-SESSION-CONTROL>
+                <DIAGNOSTIC-SESSION-CONTROL>
+                  <SHORT-NAME>Extended_SessionControl</SHORT-NAME>
+                  <ACCESS-PERMISSION-REF DEST="DIAGNOSTIC-ACCESS-PERMISSION">/Diagnostics/Dcm/AP_All</ACCESS-PERMISSION-REF>
+                  <DIAGNOSTIC-SESSION-REF DEST="DIAGNOSTIC-SESSION">/Diagnostics/Dcm/DiagnosticSessions/Extended</DIAGNOSTIC-SESSION-REF>
+                  <SESSION-CONTROL-CLASS-REF DEST="DIAGNOSTIC-SESSION-CONTROL-CLASS">/Diagnostics/Dcm/ServiceClasses/SessionControlClass</SESSION-CONTROL-CLASS-REF>
+                </DIAGNOSTIC-SESSION-CONTROL>
+                <DIAGNOSTIC-SESSION-CONTROL>
+                  <SHORT-NAME>Programming_SessionControl</SHORT-NAME>
+                  <ACCESS-PERMISSION-REF DEST="DIAGNOSTIC-ACCESS-PERMISSION">/Diagnostics/Dcm/AP_All</ACCESS-PERMISSION-REF>
+                  <DIAGNOSTIC-SESSION-REF DEST="DIAGNOSTIC-SESSION">/Diagnostics/Dcm/DiagnosticSessions/Programming</DIAGNOSTIC-SESSION-REF>
+                  <SESSION-CONTROL-CLASS-REF DEST="DIAGNOSTIC-SESSION-CONTROL-CLASS">/Diagnostics/Dcm/ServiceClasses/SessionControlClass</SESSION-CONTROL-CLASS-REF>
+                </DIAGNOSTIC-SESSION-CONTROL>
+                <DIAGNOSTIC-TRANSFER-EXIT>
+                  <SHORT-NAME>RequestTransferExit</SHORT-NAME>
+                  <DESC>
+                    <L-2 L="FOR-ALL">&lt;condition Cond_ID="C13"&gt; Only if ECU supports RequestDownload service or RequestUpload service &lt;/condition&gt;
+&lt;condition Cond_ID="C46"&gt; Only if ECU is running in flash boot loader mode &lt;/condition&gt;
+&lt;condition Cond_ID="C59"&gt; Optional if ECU is running in application mode &lt;/condition&gt;</L-2>
+                  </DESC>
+                  <ACCESS-PERMISSION-REF DEST="DIAGNOSTIC-ACCESS-PERMISSION">/Diagnostics/Dcm/AP_Comb_0004</ACCESS-PERMISSION-REF>
+                  <TRANSFER-EXIT-CLASS-REF DEST="DIAGNOSTIC-TRANSFER-EXIT-CLASS">/Diagnostics/Dcm/ServiceClasses/TransferExitClass</TRANSFER-EXIT-CLASS-REF>
+                </DIAGNOSTIC-TRANSFER-EXIT>
+                <DIAGNOSTIC-WRITE-DATA-BY-IDENTIFIER>
+                  <SHORT-NAME>Programming_Date_Data_Identifier_Write</SHORT-NAME>
+                  <ACCESS-PERMISSION-REF DEST="DIAGNOSTIC-ACCESS-PERMISSION">/Diagnostics/Dcm/AP_Comb_0005</ACCESS-PERMISSION-REF>
+                  <DATA-IDENTIFIER-REF DEST="DIAGNOSTIC-DATA-IDENTIFIER">/Diagnostics/Common/Programming_Date_Data_Identifier</DATA-IDENTIFIER-REF>
+                  <WRITE-CLASS-REF DEST="DIAGNOSTIC-WRITE-DATA-BY-IDENTIFIER-CLASS">/Diagnostics/Dcm/ServiceClasses/WriteDataByIdentifierClass</WRITE-CLASS-REF>
+                </DIAGNOSTIC-WRITE-DATA-BY-IDENTIFIER>
+                <DIAGNOSTIC-WRITE-DATA-BY-IDENTIFIER>
+                  <SHORT-NAME>TesterSerialNumberDataIdentifier_Write</SHORT-NAME>
+                  <ACCESS-PERMISSION-REF DEST="DIAGNOSTIC-ACCESS-PERMISSION">/Diagnostics/Dcm/AP_Comb_0005</ACCESS-PERMISSION-REF>
+                  <DATA-IDENTIFIER-REF DEST="DIAGNOSTIC-DATA-IDENTIFIER">/Diagnostics/Common/TesterSerialNumberDataIdentifier</DATA-IDENTIFIER-REF>
+                  <WRITE-CLASS-REF DEST="DIAGNOSTIC-WRITE-DATA-BY-IDENTIFIER-CLASS">/Diagnostics/Dcm/ServiceClasses/WriteDataByIdentifierClass</WRITE-CLASS-REF>
+                </DIAGNOSTIC-WRITE-DATA-BY-IDENTIFIER>
+                <DIAGNOSTIC-WRITE-DATA-BY-IDENTIFIER>
+                  <SHORT-NAME>VINDataIdentifier_Write</SHORT-NAME>
+                  <ACCESS-PERMISSION-REF DEST="DIAGNOSTIC-ACCESS-PERMISSION">/Diagnostics/Dcm/AP_Comb_0003</ACCESS-PERMISSION-REF>
+                  <DATA-IDENTIFIER-REF DEST="DIAGNOSTIC-DATA-IDENTIFIER">/Diagnostics/Common/VINDataIdentifier</DATA-IDENTIFIER-REF>
+                  <WRITE-CLASS-REF DEST="DIAGNOSTIC-WRITE-DATA-BY-IDENTIFIER-CLASS">/Diagnostics/Dcm/ServiceClasses/WriteDataByIdentifierClass</WRITE-CLASS-REF>
+                </DIAGNOSTIC-WRITE-DATA-BY-IDENTIFIER>
+				<DIAGNOSTIC-WRITE-DATA-BY-IDENTIFIER>
+                  <SHORT-NAME>Erase_Key_Write</SHORT-NAME>
+                  <ACCESS-PERMISSION-REF DEST="DIAGNOSTIC-ACCESS-PERMISSION">/Diagnostics/Dcm/AP_Comb_0005</ACCESS-PERMISSION-REF>
+                  <DATA-IDENTIFIER-REF DEST="DIAGNOSTIC-DATA-IDENTIFIER">/Diagnostics/Common/Erase_Key</DATA-IDENTIFIER-REF>
+                  <WRITE-CLASS-REF DEST="DIAGNOSTIC-WRITE-DATA-BY-IDENTIFIER-CLASS">/Diagnostics/Dcm/ServiceClasses/WriteDataByIdentifierClass</WRITE-CLASS-REF>
+                </DIAGNOSTIC-WRITE-DATA-BY-IDENTIFIER>
+                <DIAGNOSTIC-WRITE-DATA-BY-IDENTIFIER>
+                  <SHORT-NAME>Application_Data_Fingerprint_Write</SHORT-NAME>
+                  <ACCESS-PERMISSION-REF DEST="DIAGNOSTIC-ACCESS-PERMISSION">/Diagnostics/Dcm/AP_Comb_0005</ACCESS-PERMISSION-REF>
+                  <DATA-IDENTIFIER-REF DEST="DIAGNOSTIC-DATA-IDENTIFIER">/Diagnostics/Common/Application_Data_Fingerprint</DATA-IDENTIFIER-REF>
+                  <WRITE-CLASS-REF DEST="DIAGNOSTIC-WRITE-DATA-BY-IDENTIFIER-CLASS">/Diagnostics/Dcm/ServiceClasses/WriteDataByIdentifierClass</WRITE-CLASS-REF>
+                </DIAGNOSTIC-WRITE-DATA-BY-IDENTIFIER>
+                <DIAGNOSTIC-WRITE-DATA-BY-IDENTIFIER>
+                  <SHORT-NAME>Write_ECU_Private_Key_Write</SHORT-NAME>
+                  <ACCESS-PERMISSION-REF DEST="DIAGNOSTIC-ACCESS-PERMISSION">/Diagnostics/Dcm/AP_Comb_0005</ACCESS-PERMISSION-REF>
+                  <DATA-IDENTIFIER-REF DEST="DIAGNOSTIC-DATA-IDENTIFIER">/Diagnostics/Common/Write_ECU_Private_Key</DATA-IDENTIFIER-REF>
+                  <WRITE-CLASS-REF DEST="DIAGNOSTIC-WRITE-DATA-BY-IDENTIFIER-CLASS">/Diagnostics/Dcm/ServiceClasses/WriteDataByIdentifierClass</WRITE-CLASS-REF>
+                </DIAGNOSTIC-WRITE-DATA-BY-IDENTIFIER>
+              </ELEMENTS>
+            </AR-PACKAGE>
+          </AR-PACKAGES>
+        </AR-PACKAGE>
+      </AR-PACKAGES>
+    </AR-PACKAGE>
+    <AR-PACKAGE>
+      <SHORT-NAME>AUTOSAR_Platform</SHORT-NAME>
+      <AR-PACKAGES>
+        <AR-PACKAGE>
+          <SHORT-NAME>BaseTypes</SHORT-NAME>
+          <ELEMENTS>
+            <SW-BASE-TYPE>
+              <SHORT-NAME>float32</SHORT-NAME>
+              <CATEGORY>FIXED_LENGTH</CATEGORY>
+              <BASE-TYPE-SIZE>32</BASE-TYPE-SIZE>
+              <BASE-TYPE-ENCODING>IEEE754</BASE-TYPE-ENCODING>
+            </SW-BASE-TYPE>
+            <SW-BASE-TYPE>
+              <SHORT-NAME>float64</SHORT-NAME>
+              <CATEGORY>FIXED_LENGTH</CATEGORY>
+              <BASE-TYPE-SIZE>64</BASE-TYPE-SIZE>
+              <BASE-TYPE-ENCODING>IEEE754</BASE-TYPE-ENCODING>
+            </SW-BASE-TYPE>
+            <SW-BASE-TYPE>
+              <SHORT-NAME>sint16</SHORT-NAME>
+              <CATEGORY>FIXED_LENGTH</CATEGORY>
+              <BASE-TYPE-SIZE>16</BASE-TYPE-SIZE>
+              <BASE-TYPE-ENCODING>2C</BASE-TYPE-ENCODING>
+            </SW-BASE-TYPE>
+            <SW-BASE-TYPE>
+              <SHORT-NAME>sint32</SHORT-NAME>
+              <CATEGORY>FIXED_LENGTH</CATEGORY>
+              <BASE-TYPE-SIZE>32</BASE-TYPE-SIZE>
+              <BASE-TYPE-ENCODING>2C</BASE-TYPE-ENCODING>
+            </SW-BASE-TYPE>
+            <SW-BASE-TYPE>
+              <SHORT-NAME>sint64</SHORT-NAME>
+              <CATEGORY>FIXED_LENGTH</CATEGORY>
+              <BASE-TYPE-SIZE>64</BASE-TYPE-SIZE>
+              <BASE-TYPE-ENCODING>2C</BASE-TYPE-ENCODING>
+            </SW-BASE-TYPE>
+            <SW-BASE-TYPE>
+              <SHORT-NAME>sint8</SHORT-NAME>
+              <CATEGORY>FIXED_LENGTH</CATEGORY>
+              <BASE-TYPE-SIZE>8</BASE-TYPE-SIZE>
+              <BASE-TYPE-ENCODING>2C</BASE-TYPE-ENCODING>
+            </SW-BASE-TYPE>
+            <SW-BASE-TYPE>
+              <SHORT-NAME>uint16</SHORT-NAME>
+              <CATEGORY>FIXED_LENGTH</CATEGORY>
+              <BASE-TYPE-SIZE>16</BASE-TYPE-SIZE>
+              <BASE-TYPE-ENCODING>NONE</BASE-TYPE-ENCODING>
+            </SW-BASE-TYPE>
+            <SW-BASE-TYPE>
+              <SHORT-NAME>uint32</SHORT-NAME>
+              <CATEGORY>FIXED_LENGTH</CATEGORY>
+              <BASE-TYPE-SIZE>32</BASE-TYPE-SIZE>
+              <BASE-TYPE-ENCODING>NONE</BASE-TYPE-ENCODING>
+            </SW-BASE-TYPE>
+            <SW-BASE-TYPE>
+              <SHORT-NAME>uint64</SHORT-NAME>
+              <CATEGORY>FIXED_LENGTH</CATEGORY>
+              <BASE-TYPE-SIZE>64</BASE-TYPE-SIZE>
+              <BASE-TYPE-ENCODING>NONE</BASE-TYPE-ENCODING>
+            </SW-BASE-TYPE>
+            <SW-BASE-TYPE>
+              <SHORT-NAME>uint8</SHORT-NAME>
+              <CATEGORY>FIXED_LENGTH</CATEGORY>
+              <BASE-TYPE-SIZE>8</BASE-TYPE-SIZE>
+              <BASE-TYPE-ENCODING>NONE</BASE-TYPE-ENCODING>
+            </SW-BASE-TYPE>
+          </ELEMENTS>
+        </AR-PACKAGE>
+        <AR-PACKAGE>
+          <SHORT-NAME>DataContraints</SHORT-NAME>
+          <ELEMENTS>
+            <DATA-CONSTR>
+              <SHORT-NAME>float32_DataConstr</SHORT-NAME>
+              <DATA-CONSTR-RULES>
+                <DATA-CONSTR-RULE>
+                  <INTERNAL-CONSTRS>
+                    <LOWER-LIMIT INTERVAL-TYPE="OPEN">-INF</LOWER-LIMIT>
+                    <UPPER-LIMIT INTERVAL-TYPE="OPEN">INF</UPPER-LIMIT>
+                  </INTERNAL-CONSTRS>
+                </DATA-CONSTR-RULE>
+              </DATA-CONSTR-RULES>
+            </DATA-CONSTR>
+            <DATA-CONSTR>
+              <SHORT-NAME>float64_DataConstr</SHORT-NAME>
+              <DATA-CONSTR-RULES>
+                <DATA-CONSTR-RULE>
+                  <INTERNAL-CONSTRS>
+                    <LOWER-LIMIT INTERVAL-TYPE="OPEN">-INF</LOWER-LIMIT>
+                    <UPPER-LIMIT INTERVAL-TYPE="OPEN">INF</UPPER-LIMIT>
+                  </INTERNAL-CONSTRS>
+                </DATA-CONSTR-RULE>
+              </DATA-CONSTR-RULES>
+            </DATA-CONSTR>
+            <DATA-CONSTR>
+              <SHORT-NAME>sint16_DataConstr</SHORT-NAME>
+              <DATA-CONSTR-RULES>
+                <DATA-CONSTR-RULE>
+                  <INTERNAL-CONSTRS>
+                    <LOWER-LIMIT INTERVAL-TYPE="CLOSED">-32768</LOWER-LIMIT>
+                    <UPPER-LIMIT INTERVAL-TYPE="CLOSED">32767</UPPER-LIMIT>
+                  </INTERNAL-CONSTRS>
+                </DATA-CONSTR-RULE>
+              </DATA-CONSTR-RULES>
+            </DATA-CONSTR>
+            <DATA-CONSTR>
+              <SHORT-NAME>sint32_DataConstr</SHORT-NAME>
+              <DATA-CONSTR-RULES>
+                <DATA-CONSTR-RULE>
+                  <INTERNAL-CONSTRS>
+                    <LOWER-LIMIT INTERVAL-TYPE="CLOSED">-2147483648</LOWER-LIMIT>
+                    <UPPER-LIMIT INTERVAL-TYPE="CLOSED">2147483647</UPPER-LIMIT>
+                  </INTERNAL-CONSTRS>
+                </DATA-CONSTR-RULE>
+              </DATA-CONSTR-RULES>
+            </DATA-CONSTR>
+            <DATA-CONSTR>
+              <SHORT-NAME>sint64_DataConstr</SHORT-NAME>
+              <DATA-CONSTR-RULES>
+                <DATA-CONSTR-RULE>
+                  <INTERNAL-CONSTRS>
+                    <LOWER-LIMIT INTERVAL-TYPE="CLOSED">-9223372036854775808</LOWER-LIMIT>
+                    <UPPER-LIMIT INTERVAL-TYPE="CLOSED">9223372036854775807</UPPER-LIMIT>
+                  </INTERNAL-CONSTRS>
+                </DATA-CONSTR-RULE>
+              </DATA-CONSTR-RULES>
+            </DATA-CONSTR>
+            <DATA-CONSTR>
+              <SHORT-NAME>sint8_DataConstr</SHORT-NAME>
+              <DATA-CONSTR-RULES>
+                <DATA-CONSTR-RULE>
+                  <INTERNAL-CONSTRS>
+                    <LOWER-LIMIT INTERVAL-TYPE="CLOSED">-128</LOWER-LIMIT>
+                    <UPPER-LIMIT INTERVAL-TYPE="CLOSED">127</UPPER-LIMIT>
+                  </INTERNAL-CONSTRS>
+                </DATA-CONSTR-RULE>
+              </DATA-CONSTR-RULES>
+            </DATA-CONSTR>
+            <DATA-CONSTR>
+              <SHORT-NAME>uint16_DataConstr</SHORT-NAME>
+              <DATA-CONSTR-RULES>
+                <DATA-CONSTR-RULE>
+                  <INTERNAL-CONSTRS>
+                    <LOWER-LIMIT INTERVAL-TYPE="CLOSED">0</LOWER-LIMIT>
+                    <UPPER-LIMIT INTERVAL-TYPE="CLOSED">65535</UPPER-LIMIT>
+                  </INTERNAL-CONSTRS>
+                </DATA-CONSTR-RULE>
+              </DATA-CONSTR-RULES>
+            </DATA-CONSTR>
+            <DATA-CONSTR>
+              <SHORT-NAME>uint32_DataConstr</SHORT-NAME>
+              <DATA-CONSTR-RULES>
+                <DATA-CONSTR-RULE>
+                  <INTERNAL-CONSTRS>
+                    <LOWER-LIMIT INTERVAL-TYPE="CLOSED">0</LOWER-LIMIT>
+                    <UPPER-LIMIT INTERVAL-TYPE="CLOSED">4294967295</UPPER-LIMIT>
+                  </INTERNAL-CONSTRS>
+                </DATA-CONSTR-RULE>
+              </DATA-CONSTR-RULES>
+            </DATA-CONSTR>
+            <DATA-CONSTR>
+              <SHORT-NAME>uint64_DataConstr</SHORT-NAME>
+              <DATA-CONSTR-RULES>
+                <DATA-CONSTR-RULE>
+                  <INTERNAL-CONSTRS>
+                    <LOWER-LIMIT INTERVAL-TYPE="CLOSED">0</LOWER-LIMIT>
+                    <UPPER-LIMIT INTERVAL-TYPE="CLOSED">18446744073709551615</UPPER-LIMIT>
+                  </INTERNAL-CONSTRS>
+                </DATA-CONSTR-RULE>
+              </DATA-CONSTR-RULES>
+            </DATA-CONSTR>
+            <DATA-CONSTR>
+              <SHORT-NAME>uint8_DataConstr</SHORT-NAME>
+              <DATA-CONSTR-RULES>
+                <DATA-CONSTR-RULE>
+                  <INTERNAL-CONSTRS>
+                    <LOWER-LIMIT INTERVAL-TYPE="CLOSED">0</LOWER-LIMIT>
+                    <UPPER-LIMIT INTERVAL-TYPE="CLOSED">255</UPPER-LIMIT>
+                  </INTERNAL-CONSTRS>
+                </DATA-CONSTR-RULE>
+              </DATA-CONSTR-RULES>
+            </DATA-CONSTR>
+          </ELEMENTS>
+        </AR-PACKAGE>
+        <AR-PACKAGE>
+          <SHORT-NAME>ImplementationDataTypes</SHORT-NAME>
+          <ELEMENTS>
+            <IMPLEMENTATION-DATA-TYPE>
+              <SHORT-NAME>float32</SHORT-NAME>
+              <CATEGORY>VALUE</CATEGORY>
+              <SW-DATA-DEF-PROPS>
+                <SW-DATA-DEF-PROPS-VARIANTS>
+                  <SW-DATA-DEF-PROPS-CONDITIONAL>
+                    <BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR_Platform/BaseTypes/float32</BASE-TYPE-REF>
+                    <SW-CALIBRATION-ACCESS>NOT-ACCESSIBLE</SW-CALIBRATION-ACCESS>
+                    <DATA-CONSTR-REF DEST="DATA-CONSTR">/AUTOSAR_Platform/DataContraints/float32_DataConstr</DATA-CONSTR-REF>
+                  </SW-DATA-DEF-PROPS-CONDITIONAL>
+                </SW-DATA-DEF-PROPS-VARIANTS>
+              </SW-DATA-DEF-PROPS>
+              <TYPE-EMITTER>Platform_Type</TYPE-EMITTER>
+            </IMPLEMENTATION-DATA-TYPE>
+            <IMPLEMENTATION-DATA-TYPE>
+              <SHORT-NAME>float64</SHORT-NAME>
+              <CATEGORY>VALUE</CATEGORY>
+              <SW-DATA-DEF-PROPS>
+                <SW-DATA-DEF-PROPS-VARIANTS>
+                  <SW-DATA-DEF-PROPS-CONDITIONAL>
+                    <BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR_Platform/BaseTypes/float64</BASE-TYPE-REF>
+                    <SW-CALIBRATION-ACCESS>NOT-ACCESSIBLE</SW-CALIBRATION-ACCESS>
+                    <DATA-CONSTR-REF DEST="DATA-CONSTR">/AUTOSAR_Platform/DataContraints/float64_DataConstr</DATA-CONSTR-REF>
+                  </SW-DATA-DEF-PROPS-CONDITIONAL>
+                </SW-DATA-DEF-PROPS-VARIANTS>
+              </SW-DATA-DEF-PROPS>
+              <TYPE-EMITTER>Platform_Type</TYPE-EMITTER>
+            </IMPLEMENTATION-DATA-TYPE>
+            <IMPLEMENTATION-DATA-TYPE>
+              <SHORT-NAME>sint16</SHORT-NAME>
+              <CATEGORY>VALUE</CATEGORY>
+              <SW-DATA-DEF-PROPS>
+                <SW-DATA-DEF-PROPS-VARIANTS>
+                  <SW-DATA-DEF-PROPS-CONDITIONAL>
+                    <BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR_Platform/BaseTypes/sint16</BASE-TYPE-REF>
+                    <SW-CALIBRATION-ACCESS>NOT-ACCESSIBLE</SW-CALIBRATION-ACCESS>
+                    <DATA-CONSTR-REF DEST="DATA-CONSTR">/AUTOSAR_Platform/DataContraints/sint16_DataConstr</DATA-CONSTR-REF>
+                  </SW-DATA-DEF-PROPS-CONDITIONAL>
+                </SW-DATA-DEF-PROPS-VARIANTS>
+              </SW-DATA-DEF-PROPS>
+              <TYPE-EMITTER>Platform_Type</TYPE-EMITTER>
+            </IMPLEMENTATION-DATA-TYPE>
+            <IMPLEMENTATION-DATA-TYPE>
+              <SHORT-NAME>sint32</SHORT-NAME>
+              <CATEGORY>VALUE</CATEGORY>
+              <SW-DATA-DEF-PROPS>
+                <SW-DATA-DEF-PROPS-VARIANTS>
+                  <SW-DATA-DEF-PROPS-CONDITIONAL>
+                    <BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR_Platform/BaseTypes/sint32</BASE-TYPE-REF>
+                    <SW-CALIBRATION-ACCESS>NOT-ACCESSIBLE</SW-CALIBRATION-ACCESS>
+                    <DATA-CONSTR-REF DEST="DATA-CONSTR">/AUTOSAR_Platform/DataContraints/sint32_DataConstr</DATA-CONSTR-REF>
+                  </SW-DATA-DEF-PROPS-CONDITIONAL>
+                </SW-DATA-DEF-PROPS-VARIANTS>
+              </SW-DATA-DEF-PROPS>
+              <TYPE-EMITTER>Platform_Type</TYPE-EMITTER>
+            </IMPLEMENTATION-DATA-TYPE>
+            <IMPLEMENTATION-DATA-TYPE>
+              <SHORT-NAME>sint64</SHORT-NAME>
+              <CATEGORY>VALUE</CATEGORY>
+              <SW-DATA-DEF-PROPS>
+                <SW-DATA-DEF-PROPS-VARIANTS>
+                  <SW-DATA-DEF-PROPS-CONDITIONAL>
+                    <BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR_Platform/BaseTypes/sint64</BASE-TYPE-REF>
+                    <SW-CALIBRATION-ACCESS>NOT-ACCESSIBLE</SW-CALIBRATION-ACCESS>
+                    <DATA-CONSTR-REF DEST="DATA-CONSTR">/AUTOSAR_Platform/DataContraints/sint64_DataConstr</DATA-CONSTR-REF>
+                  </SW-DATA-DEF-PROPS-CONDITIONAL>
+                </SW-DATA-DEF-PROPS-VARIANTS>
+              </SW-DATA-DEF-PROPS>
+              <TYPE-EMITTER>Platform_Type</TYPE-EMITTER>
+            </IMPLEMENTATION-DATA-TYPE>
+            <IMPLEMENTATION-DATA-TYPE>
+              <SHORT-NAME>sint8</SHORT-NAME>
+              <CATEGORY>VALUE</CATEGORY>
+              <SW-DATA-DEF-PROPS>
+                <SW-DATA-DEF-PROPS-VARIANTS>
+                  <SW-DATA-DEF-PROPS-CONDITIONAL>
+                    <BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR_Platform/BaseTypes/sint8</BASE-TYPE-REF>
+                    <SW-CALIBRATION-ACCESS>NOT-ACCESSIBLE</SW-CALIBRATION-ACCESS>
+                    <DATA-CONSTR-REF DEST="DATA-CONSTR">/AUTOSAR_Platform/DataContraints/sint8_DataConstr</DATA-CONSTR-REF>
+                  </SW-DATA-DEF-PROPS-CONDITIONAL>
+                </SW-DATA-DEF-PROPS-VARIANTS>
+              </SW-DATA-DEF-PROPS>
+              <TYPE-EMITTER>Platform_Type</TYPE-EMITTER>
+            </IMPLEMENTATION-DATA-TYPE>
+            <IMPLEMENTATION-DATA-TYPE>
+              <SHORT-NAME>uint16</SHORT-NAME>
+              <CATEGORY>VALUE</CATEGORY>
+              <SW-DATA-DEF-PROPS>
+                <SW-DATA-DEF-PROPS-VARIANTS>
+                  <SW-DATA-DEF-PROPS-CONDITIONAL>
+                    <BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR_Platform/BaseTypes/uint16</BASE-TYPE-REF>
+                    <SW-CALIBRATION-ACCESS>NOT-ACCESSIBLE</SW-CALIBRATION-ACCESS>
+                    <DATA-CONSTR-REF DEST="DATA-CONSTR">/AUTOSAR_Platform/DataContraints/uint16_DataConstr</DATA-CONSTR-REF>
+                  </SW-DATA-DEF-PROPS-CONDITIONAL>
+                </SW-DATA-DEF-PROPS-VARIANTS>
+              </SW-DATA-DEF-PROPS>
+              <TYPE-EMITTER>Platform_Type</TYPE-EMITTER>
+            </IMPLEMENTATION-DATA-TYPE>
+            <IMPLEMENTATION-DATA-TYPE>
+              <SHORT-NAME>uint32</SHORT-NAME>
+              <CATEGORY>VALUE</CATEGORY>
+              <SW-DATA-DEF-PROPS>
+                <SW-DATA-DEF-PROPS-VARIANTS>
+                  <SW-DATA-DEF-PROPS-CONDITIONAL>
+                    <BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR_Platform/BaseTypes/uint32</BASE-TYPE-REF>
+                    <SW-CALIBRATION-ACCESS>NOT-ACCESSIBLE</SW-CALIBRATION-ACCESS>
+                    <DATA-CONSTR-REF DEST="DATA-CONSTR">/AUTOSAR_Platform/DataContraints/uint32_DataConstr</DATA-CONSTR-REF>
+                  </SW-DATA-DEF-PROPS-CONDITIONAL>
+                </SW-DATA-DEF-PROPS-VARIANTS>
+              </SW-DATA-DEF-PROPS>
+              <TYPE-EMITTER>Platform_Type</TYPE-EMITTER>
+            </IMPLEMENTATION-DATA-TYPE>
+            <IMPLEMENTATION-DATA-TYPE>
+              <SHORT-NAME>uint64</SHORT-NAME>
+              <CATEGORY>VALUE</CATEGORY>
+              <SW-DATA-DEF-PROPS>
+                <SW-DATA-DEF-PROPS-VARIANTS>
+                  <SW-DATA-DEF-PROPS-CONDITIONAL>
+                    <BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR_Platform/BaseTypes/uint64</BASE-TYPE-REF>
+                    <SW-CALIBRATION-ACCESS>NOT-ACCESSIBLE</SW-CALIBRATION-ACCESS>
+                    <DATA-CONSTR-REF DEST="DATA-CONSTR">/AUTOSAR_Platform/DataContraints/uint64_DataConstr</DATA-CONSTR-REF>
+                  </SW-DATA-DEF-PROPS-CONDITIONAL>
+                </SW-DATA-DEF-PROPS-VARIANTS>
+              </SW-DATA-DEF-PROPS>
+              <TYPE-EMITTER>Platform_Type</TYPE-EMITTER>
+            </IMPLEMENTATION-DATA-TYPE>
+            <IMPLEMENTATION-DATA-TYPE>
+              <SHORT-NAME>uint8</SHORT-NAME>
+              <CATEGORY>VALUE</CATEGORY>
+              <SW-DATA-DEF-PROPS>
+                <SW-DATA-DEF-PROPS-VARIANTS>
+                  <SW-DATA-DEF-PROPS-CONDITIONAL>
+                    <BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR_Platform/BaseTypes/uint8</BASE-TYPE-REF>
+                    <SW-CALIBRATION-ACCESS>NOT-ACCESSIBLE</SW-CALIBRATION-ACCESS>
+                    <DATA-CONSTR-REF DEST="DATA-CONSTR">/AUTOSAR_Platform/DataContraints/uint8_DataConstr</DATA-CONSTR-REF>
+                  </SW-DATA-DEF-PROPS-CONDITIONAL>
+                </SW-DATA-DEF-PROPS-VARIANTS>
+              </SW-DATA-DEF-PROPS>
+              <TYPE-EMITTER>Platform_Type</TYPE-EMITTER>
+            </IMPLEMENTATION-DATA-TYPE>
+          </ELEMENTS>
+        </AR-PACKAGE>
+      </AR-PACKAGES>
+    </AR-PACKAGE>
+  </AR-PACKAGES>
+</AUTOSAR>
