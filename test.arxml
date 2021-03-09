@@ -906,7 +906,6 @@
                 </DIAGNOSTIC-FREEZE-FRAME>
                 <DIAGNOSTIC-FREEZE-FRAME>
                   <SHORT-NAME>Last_Occurence</SHORT-NAME>
-                  
                   <RECORD-NUMBER>2</RECORD-NUMBER>
                   <TRIGGER>TEST-FAILED</TRIGGER>
                 </DIAGNOSTIC-FREEZE-FRAME>
