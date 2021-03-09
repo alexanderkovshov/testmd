@@ -2084,6 +2084,8 @@ TransferData (Upload)
                 <SW-DATA-DEF-PROPS-VARIANTS>
                   <SW-DATA-DEF-PROPS-CONDITIONAL>
                     <BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR_Platform/BaseTypes/uint8</BASE-TYPE-REF>
+		    
+		    
                     <SW-CALIBRATION-ACCESS>NOT-ACCESSIBLE</SW-CALIBRATION-ACCESS>
                     <DATA-CONSTR-REF DEST="DATA-CONSTR">/AUTOSAR_Platform/DataContraints/uint8_DataConstr</DATA-CONSTR-REF>
                   </SW-DATA-DEF-PROPS-CONDITIONAL>
